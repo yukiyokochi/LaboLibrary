@@ -10,27 +10,26 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
-# 開発環境用のsettings.pyです
-# 公開すると不味いものもあるので、githubなどには載せないように。
-# settings_for_productionenv.pyをsettings.pyに変更してデプロイ
-
 import os
+import environ
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
+env = environ.Env()
+env.read_env('.env')
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'c_x+a8828!%lt$ey^ld=8xouy6rtf^xwwlq3e-rs^%13klzya3'
+SECRET_KEY = env('SECRET_KEY')
+# SECRET_KEY = 'c_x+a8828!%lt$ey^ld=8xouy6rtf^xwwlq3e-rs^%13klzya3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [env('ALLOWED_HOSTS')]
 
 
 # Application definition
@@ -55,7 +54,7 @@ INSTALLED_APPS = [
     'chat.apps.ChatConfig',
     'feedback.apps.FeedbackConfig',
     'sass_processor',
-    # 'django_ses',
+    'django_ses',
 ]
 
 MIDDLEWARE = [
@@ -122,7 +121,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
-LANGUAGE_CODE = 'ja-jp'
+LANGUAGE_CODE = 'ja'
 
 TIME_ZONE = 'Asia/Tokyo'
 
@@ -138,9 +137,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
-)
+STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 SASS_PROCESSOR_ROOT = os.path.join(BASE_DIR, 'static')
 SASS_PROCESSOR_INCLUDE_FILE_PATTERN = r'^.+\.(sass|scss)$'
 SASS_PRECISION = 8
@@ -152,7 +149,8 @@ AUTH_USER_MODEL = 'accounts.User'
 LOGIN_URL = 'accounts:login'
 LOGIN_REDIRECT_URL = 'accounts:top'
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+STATIC_ROOT = '/usr/share/nginx/html/static'
+MEDIA_ROOT = '/usr/share/nginx/html/media'
 
 MEDIA_URL = '/media/'
 
@@ -162,9 +160,57 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # 本番用
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+AWS_SES_ACCESS_KEY_ID = env('AWS_SES_ACCESS_KEY_ID')
+AWS_SES_SECRET_ACCESS_KEY = env('AWS_SES_SECRET_ACCESS_KEY')
+EMAIL_BACKEND = 'django_ses.SESBackend'
 # EMAIL_HOST = 'smtp.googlemail.com'
 # EMAIL_USE_TLS = True
 # EMAIL_PORT = 587
 # EMAIL_HOST_USER = 'lablib2021@gmail.com'
 # EMAIL_HOST_PASSWORD = 'utnem2020'
+
+# ロギング
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+
+    'loggers':{
+        'django':{
+            'handlers':['file'],
+            'level':'INFO',
+        },
+        'labolib':{
+            'handlers':['file'],
+            'level':'INFO',
+        },
+    },
+
+    'handlers':{
+        'file':{
+            'level':'INFO',
+            'class':'logging.handlers.TimedRotatingFileHandler',
+            'filename':os.path.join(BASE_DIR,'logs/django.log'),
+            'formatter':'prod',
+            'when':'D',
+            'interval':1,
+            'backupCount':7,
+        },
+    },
+    'formatters':{
+        'prod':{
+            'format':'\t'.join([
+                '%(asctime)s',
+                '[%(levelname)s]',
+                '%(pathname)s(Line:%(lineno)d)',
+                '%(message)s'
+            ])
+        },
+    }
+}
+
+# ~/.bash_profileに環境変数を書く。
+# export ALLOWED_HOSTS=
+# export AWS_SES_ACCESS_KEY_ID=
+# export AWS_SES_SECRET_ACCESS_KEY=
+# export SECRET_KEY=
+# など。
