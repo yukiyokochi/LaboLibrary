@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="lab-paper-console">
+  <div class="container">
+    <p class="lab-paper-console-p">論文登録</p>
+    <div class="jumbotron">
+      <form action="" method="POST"  enctype="multipart/form-data">
+          {% for field in form %}
+              <div>
+                  <label for="{{ field.id_for_label }}">{{ field.label_tag }}</label><br>
+                  {{ field }}
+                  {{ field.errors }}
+              </div>
+          {% endfor %}
+          {% csrf_token %}
+          <input type="submit" class="btn btn-primary" value="送信">
+      </form>
+    </div>
+    <a class="goback" href="javascript:history.back();">前のページに戻る</a>
+  </div>
+</section>
+{% endblock %}

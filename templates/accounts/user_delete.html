@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="delete">
+      <div class="container">
+        <p>退会手続きが完了しました。ご利用いただきありがとうございました。</p>
+        <p>差し支えなければフィードバックの送信にご協力ください。</p>
+        <a class="button" href="{% url 'feedback:index' %}"><p>フィードバックを送る</p></a>
+        <a class="button" href="{% url 'index' %}"><p>ホームに戻る</p></a>
+      </div>
+    </div>
+{% endblock %}

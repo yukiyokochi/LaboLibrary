@@ -1,0 +1,181 @@
+{% load static %}
+{% load sass_tags %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Labo Library</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Labo Libraryは学校学科専攻をまたいだキーワードによる研究室検索および、学生と研究室が気軽にコンタクトをとれる場を提供することで、双方にミスマッチのない研究室探しを支援するサービスです。さらに、学生がプロフィールや希望の条件を設定することで、それに興味を持った研究室からスカウトがくるなど全く新しい形での学生と研究室のマッチングを実現しています">
+<meta name="keywords" content="研究室探し,やりたい研究,見つからない,研究室検索">
+<link rel="stylesheet" href="{% static "css/style.css"%}">
+<link rel="icon" href="{% static 'img/favicon.ico' %}">
+<link rel="stylesheet" href="{% sass_src 'contact_form/style.scss' %}">
+<link rel="stylesheet" href="{% sass_src 'feedback/style.scss' %}">
+<link rel="stylesheet" href="{% sass_src 'laboratory_page/style.scss' %}">
+<link rel="stylesheet" href="{% sass_src 'accounts/style.scss' %}">
+<link rel="stylesheet" href="{% sass_src 'register_lab/style.scss' %}">
+<link rel="stylesheet" href="{% sass_src 'search/style.scss' %}">
+<link rel="stylesheet" href="{% sass_src 'data_upload/style.scss' %}">
+<link rel="stylesheet" href="{% sass_src 'mypage/style.scss' %}">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="container header-container">
+    <a href="{% url 'index' %}" class="logo"></a>
+    <div class="navi">
+      <a href="{% url 'mypage:mypage' %}" class="gotomypage">マイページ</a>
+      <a href="{% url 'search:search' %}" class="gotosearch"></a>
+      <!-- <li><a href="{% url 'blog:index' %}">入試情報一覧</a></li>
+      <li><a href="{% url 'articles:index' %}">院試特集</a></li> -->
+    </div>
+  </div>
+</header>
+<section class="eyecatch">
+  <div class="container">
+    <p class="catchcopy">学生と研究室をつなげて</p>
+    <h1>ミスマッチのない<br class="br-for-small">ラボ選びを支援</h1>
+    <div class="buttontoregister">
+      <a href="{% url 'accounts:user_create' %}">無料会員登録</a>
+    </div>
+    <div class="buttontosearch">
+      <a href="{% url 'search:search' %}">研究室を検索してみる</a>
+    </div>
+    <div class="buttontolabopartner">
+      <a href="{% url 'index_for_lab' %}">掲載希望の研究室関係者の方</a>
+    </div>
+  </div>
+</section>
+<section class="problem">
+    <div class="prob-question">
+      <p>あなたのラボ選び、こんな悩みはありませんか？</p>
+    </div>
+    <div class="prob-content">
+      <div class="container">
+        <div class="prob-each-content"><p>大学院の研究室を知る機会が少ない</p></div>
+        <div class="prob-each-content"><p>卒業後の進路や院試難易度についての情報が欲しい</p></div>
+        <div class="prob-each-content"><p>気になる研究室がどんな雰囲気なのかを知りたい</p></div>
+        <div class="prob-each-content"><p>類似した研究室が多く情報集めが難しい</p></div>
+        <div class="prob-each-content"><p>研究室へコンタクトをとるためのハードルが高い</p></div>
+        <div class="prob-each-content"><p>研究室選びを失敗したくない</p></div>
+      </div>
+    </div>
+</section>
+<section class="what-labolib">
+  <div class="container">
+    <p class="what-laboli-p">Labo Library は</p>
+    <p class="what-laboli-content">学校学科専攻をまたいだ<span class="bold">キーワードによる研究室検索</span>および、<br class="br-for-large">学生と研究室が<span class="bold">気軽にコンタクトをとれる場</span>を提供することで、<br class="br-for-large"><span class="bold">双方にミスマッチのない研究室探しを支援する</span>サービスです。</p>
+    <p class="what-laboli-content">さらに、学生がプロフィールや希望の条件を設定することで、<br class="br-for-large">それに興味を持った<span class="bold">研究室からスカウトがくるなど</span><br class="br-for-large">全く新しい形での学生と研究室のマッチングを実現しています</p>
+    <div class="sns-flex">
+      <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=150&layout=button&action=like&size=small&share=true&height=65&appId" width="150" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</section>
+<section class="merit">
+  <div class="container">
+    <div class="for-large-flex">
+      <div class="use-flow">
+        <div class="flowstep"><p>STEP1</p></div>
+        <p class="flow-desc">こだわりの条件で<span class="bold">研究室を検索</span></p>
+        <div class="flow-img flow-img1"></div>
+      </div>
+      <div class="use-flow">
+        <div class="flowstep"><p>STEP2</p></div>
+        <p class="flow-desc"><span class="bold">研究室関係者の生の声</span>に基づいた情報の入手</p>
+        <div class="flow-img flow-img2"></div>
+      </div>
+      <div class="use-flow">
+        <div class="flowstep"><p>STEP3</p></div>
+        <p class="flow-desc">お気に入り登録後<br class="br-for-small"><span class="bold">研究室とのコンタクトを開始</span></p>
+        <div class="flow-img flow-img3"></div>
+      </div>
+    </div>
+    <p class="other-service-desc">その他にも研究室探しを支援する<br class="br-for-small">多様なサービスを提供しております。</p>
+    <div class="other-services other-services-index">
+      <div class="each-other-services">
+        <div class="other-services-img other-services-img1"></div>
+        <div class="other-services-name">
+          <p>掲示板</p>
+        </div>
+      </div>
+      <div class="each-other-services">
+        <div class="other-services-img other-services-img2"></div>
+        <div class="other-services-name">
+          <p>研究室からのスカウト</p>
+        </div>
+      </div>
+      <div class="each-other-services">
+        <div class="other-services-img other-services-img3"></div>
+        <div class="other-services-name">
+          <p>卒論の公開</p>
+        </div>
+      </div>
+      <div class="each-other-services">
+        <div class="other-services-img other-services-img4"></div>
+        <div class="other-services-name">
+          <p>質問箱</p>
+        </div>
+      </div>
+      <div class="each-other-services">
+        <div class="other-services-img other-services-img5"></div>
+        <div class="other-services-name">
+          <p>お役立ちコラム</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="start-beta">
+  <div class="start-beta-band">
+    <div class="container">
+      <p class="start-beta-p">あなたのラボ選びをサポートさせてください<br class="br-for-small">ただいま事前会員登録受付中!</p>
+      <div class="buttontoregister">
+        <a href="{% url 'accounts:user_create' %}">無料会員登録</a>
+      </div>
+      <p class="caution">※現在β版を公開中です。一部機能がご利用いただけません。<br>完全版は秋頃にリリースする予定です。</p>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <a href="{% url 'index' %}" class="logo"></a>
+    <div class="for-large-flex">
+      <div class="flex">
+        <div class="footer-menu">
+          <p class="footer-menu-title">コンテンツ</p>
+          <!-- <a href="{% url 'blog:index' %}">院試情報</a><br>
+          <a href="{% url 'articles:index' %}">院試特集</a><br> -->
+          <a href="{% url 'mypage:mypage' %}">マイページ</a><br>
+          <a href="{% url 'laboratory_page:lab_page_home' %}">研究室専用ページ</a>
+        </div>
+        <div class="footer-menu">
+          <p class="footer-menu-title">当サイトについて</p>
+          <a href="{% url 'about_administrator' %}">メンバー紹介</a><br>
+          <a href="{% url 'disclaimer' %}">著作権・免責事項</a><br>
+          <a href="{% url 'privacy_policy' %}">プライバシーポリシー</a><br>
+          <a href="{% url 'terms_of_service' %}">利用規約</a><br>
+          <a href="{% url 'contact_form:index' %}">お問い合わせ</a><br>
+          <a href="{% url 'feedback:index' %}">β版へのフィードバック</a>
+        </div>
+      </div>
+      <div class="buttons">
+        <div class="buttontoregister">
+          <a href="{% url 'accounts:user_create' %}">無料会員登録</a>
+        </div>
+        <div class="buttontosearch">
+          <a href="{% url 'search:search' %}">研究室を検索してみる</a>
+        </div>
+        <div class="buttontolabopartner">
+          <a href="{% url 'index_for_lab' %}">掲載希望の研究室関係者の方</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="copyright">Copyright&copy; LaboLibrary All Rights Reserved.</p>
+</footer>
+</body>
+</html>

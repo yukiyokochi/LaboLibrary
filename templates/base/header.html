@@ -1,0 +1,12 @@
+{% load static %}
+<header>
+  <div class="container header-container">
+    <a href="{% url 'index' %}" class="logo"></a>
+    <div class="navi">
+      <a href="{% url 'mypage:mypage' %}" class="gotomypage">マイページ</a>
+      <a href="{% url 'search:search' %}" class="gotosearch"></a>
+      <!-- <li><a href="{% url 'blog:index' %}">入試情報一覧</a></li>
+      <li><a href="{% url 'articles:index' %}">院試特集</a></li> -->
+    </div>
+  </div>
+</header>

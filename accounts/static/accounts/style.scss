@@ -1,0 +1,1515 @@
+// mixin
+@mixin image($imgurl,$width,$height){
+  width:$width;
+  height:$height;
+  background-image:url($imgurl);
+  background-position:center;
+  background-size:cover;
+}
+
+@mixin flex{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+
+@mixin button($width,$height){
+  width:$width;
+  height:$height;
+  border-radius:$height * 0.5;
+  text-align:center;
+  margin:10px auto;
+  a{
+    line-height:$height;
+    font-weight:400;
+    color:#fff;
+    text-align:center;
+  }
+}
+
+// style for common
+*{
+  margin:0;
+}
+
+html,header,footer{
+  max-width:1500px;
+}
+
+.container{
+  width:95%;
+  margin:0 auto;
+  max-width:1200px;
+}
+
+a{
+  text-decoration: none;
+  cursor:pointer;
+}
+
+a,p,h1,h2,h3,li,tr,td,th,label,button{
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight:300;
+  color:#373737;
+}
+
+.br-for-small{
+  display:block;
+}
+
+.br-for-large{
+  display:none;
+}
+
+.bold{
+  font-weight:500;
+}
+
+@media screen and (min-width:350px){
+  .container{
+    width:92.5%;
+    margin:0 auto;
+  }
+}
+
+@media screen and (min-width:375px){
+  .container{
+    width:90%;
+    margin:0 auto;
+  }
+}
+
+@media screen and (min-width:414px){
+  .container{
+    width:87%;
+    margin:0 auto;
+  }
+}
+
+@media screen and (min-width:600px){
+  .br-for-small{
+    display:none;
+  }
+  .br-for-large{
+    display:block;
+  }
+}
+
+// style for header footer
+header{
+  width:100%;
+  height:50px;
+  background-color:#fcfcfc;
+  position:fixed;
+  z-index:999;
+  .header-container{
+    @include flex;
+    .logo{
+      display:block;
+      margin:17px 0;
+      @include image('img/logo.png',135px,16px);
+    }
+    .navi{
+      width:120px;
+      @include flex;
+      .gotosearch{
+        display:block;
+        margin:10px 0;
+        @include image('img/search.png',30px,30px);
+      }
+      .gotomypage{
+        display:block;
+        font-size:14px;
+        line-height:50px;
+      }
+    }
+  }
+}
+
+footer{
+  width:100%;
+  @include image('img/footer.jpg',100%,auto);
+  padding:30px 0 2px;
+  .container{
+    .logo{
+      display:block;
+      margin:17px 0 30px;
+      @include image('img/logo.png',200px,25px);
+    }
+    .flex{
+      @include flex;
+      margin:0 0 30px;
+      .footer-menu{
+        width:49%;
+        .footer-menu-title{
+          font-size:16px;
+          margin:0 0 15px;
+          font-weight:400;
+        }
+        a{
+          font-size:12px;
+          line-height:20px;
+        }
+      }
+    }
+    .buttontoregister{
+      @include button(250px,42px);
+      background: rgb(223,115,23);
+      background: linear-gradient(0deg, rgba(223,115,23,1) 0%, rgba(237,148,71,1) 100%);
+    }
+    .buttontosearch{
+      @include button(250px,35px);
+      background: rgb(74,203,186);
+      background: linear-gradient(0deg, rgba(74,203,186,1) 0%, rgba(32,182,162,1) 100%);
+    }
+    .buttontolabopartner{
+      @include button(250px,35px);
+      background: rgb(74,203,186);
+      background: linear-gradient(0deg, rgba(74,203,186,1) 0%, rgba(32,182,162,1) 100%);
+    }
+  }
+  .copyright{
+    text-align:center;
+    font-size:10px;
+    margin:30px 0 0px;
+  }
+}
+
+@media screen and (min-width:600px){
+  footer{
+    .container{
+      .flex{
+        width:350px;
+        .footer-menu{
+          a{
+            font-size:14px;
+            line-height:24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:768px){
+  footer{
+    .for-large-flex{
+      @include flex;
+      justify-content:flex-start;
+      .buttons{
+        margin:0 0 0 20px;
+        .buttontoregister{
+          margin:0 0 15px;
+        }
+        .buttontosearch{
+          margin:15px 0;
+        }
+        .buttontolabopartner{
+          margin:15px 0;
+        }
+      }
+    }
+  }
+}
+
+
+// style for index,index_for_lab
+
+.eyecatch{
+  @include image('img/top.jpg',100%,auto);
+  .container{
+    padding:50px 0 50px;
+    .catchcopy{
+      font-size:20px;
+      color:#fff;
+      margin:80px 0 0;
+    }
+    h1{
+      color:#fff;
+      margin:20px 0 80px;
+      font-size:36px;
+    }
+  }
+}
+
+
+.eyecatch2{
+  @include image('img/top2.jpg',100%,auto);
+  .container{
+    padding:80px 0 50px;
+    .catchcopy{
+      font-size:20px;
+      color:#fff;
+      margin:80px 0 0;
+    }
+    h1{
+      color:#fff;
+      margin:20px 0 80px;
+      font-size:30px;
+    }
+  }
+}
+
+.eyecatch,
+.eyecatch2{
+  .buttontoregister{
+    @include button(250px,42px);
+    background: rgb(223,115,23);
+    background: linear-gradient(0deg, rgba(223,115,23,1) 0%, rgba(237,148,71,1) 100%);
+  }
+  .buttontosearch{
+    @include button(250px,35px);
+    background: rgb(74,203,186);
+    background: linear-gradient(0deg, rgba(74,203,186,1) 0%, rgba(32,182,162,1) 100%);
+  }
+  .buttontolabopartner{
+    @include button(250px,35px);
+    background: rgb(74,203,186);
+    background: linear-gradient(0deg, rgba(74,203,186,1) 0%, rgba(32,182,162,1) 100%);
+  }
+}
+
+
+.problem{
+  .prob-question{
+    background-color:#fcfcfc;
+    height:80px;
+    p{
+      text-align:center;
+      line-height:80px;
+      font-size:14px;
+      font-weight:500;
+      color:#028876;
+    }
+  }
+  .prob-content{
+    background-color:#D6F2EE;
+    padding:30px 0 19px;
+    .container{
+      .prob-each-content{
+        width:100%;
+        background-color:#fff;
+        border-radius:8px;
+        height:40px;
+        margin:0 0 10px;
+        p{
+          width:90%;
+          margin:0 auto;
+          text-align:center;
+          font-size:11.5px;
+          line-height:40px;
+          padding:0;
+          font-weight:400;
+        }
+      }
+    }
+  }
+}
+
+  .prob-question2{
+    background-color:#fcfcfc;
+    height:80px;
+    p{
+      text-align:center;
+      line-height:24px;
+      font-size:14px;
+      font-weight:500;
+      color:#028876;
+      padding:16px 0 0;
+    }
+  }
+
+.what-labolib{
+  @include image('img/what.jpg',100%,auto);
+  .container{
+    padding:30px 0 1px;
+    .what-laboli-p{
+      text-align:center;
+      color:#79DBCE;
+      font-weight:400;
+      margin:0 0 30px;
+      font-size:18px;
+    }
+    .what-laboli-content{
+      margin:0 0 20px;
+      color:#fff;
+      font-size:14px;
+      line-height:24px;
+    }
+    .sns-flex{
+      @include flex;
+      width:225px;
+      margin:0 auto;
+    }
+  }
+}
+
+.merit{
+  background-color:#fcfcfc;
+  .container{
+    padding:30px 0;
+    .student-comein-desc{
+      text-align:center;
+      font-size: 16px;
+      font-weight:500;
+      color:#028876;
+      margin:0 0 30px;
+    }
+    .use-flow{
+      position:relative;
+      width:100%;
+      height:210px;
+      background-color:#fff;
+      box-shadow: 3px 6px 6px #aaa;
+      margin:0 0 30px;
+      .flowstep{
+        width:80px;
+        height:30px;
+        background-color:#20B6A2;
+        p{
+          line-height:30px;
+          text-align:center;
+          font-size:16px;
+          color:#fff;
+        }
+      }
+      .flow-desc{
+        font-size:14px;
+        margin:5px 0 0 10px;
+      }
+      .flow-img{
+        width:100%;
+        position:absolute;
+        bottom:0;
+      }
+      .flow-img1{
+        @include image('img/step1.jpg', 100%, 120px);
+      }
+      .flow-img2{
+        @include image('img/step2.png', 100%, 120px);
+      }
+      .flow-img3{
+        @include image('img/step3.jpg', 100%, 120px);
+      }
+      .flow-img4{
+        @include image('img/step1.jpg', 100%, 120px);
+      }
+      .flow-img5{
+        @include image('img/step4.png', 100%, 120px);
+      }
+      .flow-img6{
+        @include image('img/step3.jpg', 100%, 120px);
+      }
+      .flow-img7{
+        @include image('img/step5.jpg', 100%, 120px);
+      }
+      .flow-img8{
+        @include image('img/step6.jpg', 100%, 120px);
+      }
+      .flow-img9{
+        @include image('img/step3.jpg', 100%, 120px);
+      }
+    }
+    .labolib-merits{
+      @include flex;
+      .each-labolib-merit{
+        width:100%;
+        height:112px;
+        background-color:#fff;
+        box-shadow: 3px 6px 6px #aaa;
+        position:relative;
+        margin:0 0 30px;
+        .triangle{
+          @include image('img/tri.png', 20px, 20px);
+          position:absolute;
+        }
+        .merit-desc{
+          width:90%;
+          text-align:center;
+          font-size:14px;
+          line-height:24px;
+          position:absolute;
+          top:50%;
+          left:50%;
+          transform: translateY(-50%) translateX(-50%);
+          -webkit-transform: translateY(-50%) translateX(-50%);
+        }
+      }
+    }
+    .other-service-desc{
+      text-align:center;
+      font-size:14px;
+      font-weight:500;
+    }
+    .other-services{
+      @include flex;
+      .each-other-services{
+        width:48%;
+        .other-services-img{
+          margin:30px auto 0;
+        }
+        .other-services-img1{
+          @include image('img/icon1.png', 80px,80px);
+        }
+        .other-services-img2{
+          @include image('img/icon2.png', 80px,80px);
+        }
+        .other-services-img3{
+          @include image('img/icon3.png', 80px,80px);
+        }
+        .other-services-img4{
+          @include image('img/icon4.png', 80px,80px);
+        }
+        .other-services-img5{
+          @include image('img/icon5.png', 80px,80px);
+        }
+        .other-services-name{
+          width:140px;
+          height:28px;
+          margin:10px auto 0;
+          border:1px solid #028876;
+          border-radius: 14px;
+          p{
+            line-height:28px;
+            text-align:center;
+            color:#028876;
+            font-size:13px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.start-beta{
+  .start-beta-band{
+    background-color:#20B6A2;
+    padding:30px 0;
+    .container{
+      .start-beta-p{
+        font-size:14px;
+        font-weight:500;
+        color:#fff;
+        text-align:center;
+        line-height:24px;
+        margin:0 0 20px;
+      }
+      .buttontoregister{
+        @include button(250px,42px);
+        background: rgb(223,115,23);
+        background: linear-gradient(0deg, rgba(223,115,23,1) 0%, rgba(237,148,71,1) 100%);
+      }
+      .caution{
+        font-size:10px;
+        font-weight:400;
+        line-height:18px;
+        color:#fff;
+        text-align:center;
+      }
+    }
+  }
+}
+
+@media screen and (min-width:375px){
+  .merit{
+    .container{
+      .use-flow{
+        height:275px;
+        .flow-desc{
+          font-size:14px;
+          margin:15px 0 0 10px;
+        }
+        .flow-img1{
+          @include image('img/step1.jpg', 100%, 170px);
+        }
+        .flow-img2{
+          @include image('img/step2.png', 100%, 170px);
+        }
+        .flow-img3{
+          @include image('img/step3.jpg', 100%, 170px);
+        }
+        .flow-img4{
+          @include image('img/step1.jpg', 100%, 170px);
+        }
+        .flow-img5{
+          @include image('img/step4.png', 100%, 170px);
+        }
+        .flow-img6{
+          @include image('img/step3.jpg', 100%, 170px);
+        }
+        .flow-img7{
+          @include image('img/step5.jpg', 100%, 170px);
+        }
+        .flow-img8{
+          @include image('img/step6.jpg', 100%, 170px);
+        }
+        .flow-img9{
+          @include image('img/step3.jpg', 100%, 170px);
+        }
+      }
+    }
+  }
+  .problem{
+    .prob-question{
+      p{
+        font-size:16px;
+      }
+    }
+    .prob-content{
+      .container{
+        .prob-each-content{
+          margin:0 0 15px;
+          p{
+            width:95%;
+            font-size:13px;
+          }
+        }
+      }
+    }
+  }
+
+    .prob-question2{
+      p{
+        line-height:26px;
+        font-size:16px;
+      }
+    }
+}
+
+@media screen and (min-width:414px){
+  .problem{
+    .prob-content{
+      .container{
+        .prob-each-content{
+          p{
+            width:95%;
+            font-size:14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:600px){
+  .eyecatch{
+    .container{
+      h1{
+        font-size:34px;
+      }
+    }
+  }
+  .eyecatch2{
+    .container{
+      h1{
+        font-size:28px;
+      }
+    }
+  }
+  .eyecatch,
+  .eyecatch2{
+    .buttontoregister{
+      @include button(250px,42px);
+      margin:15px 0;
+    }
+    .buttontosearch{
+      @include button(250px,35px);
+      margin:15px 0;
+    }
+    .buttontolabopartner{
+      @include button(250px,35px);
+      margin:15px 0;
+    }
+  }
+  .what-labolib{
+    .container{
+      .what-laboli-content{
+        text-align:center;
+      }
+    }
+  }
+  .prob-question2{
+    p{
+      line-height:80px;
+      font-size:16px;
+      padding:0;
+    }
+  }
+  .merit{
+    .container{
+      .use-flow{
+        height:230px;
+        .flow-desc{
+          margin:15px 0 0 10px;
+        }
+        .flow-img1{
+          @include image('img/step1.jpg', 100%, 150px);
+        }
+        .flow-img2{
+          @include image('img/step2.png', 100%, 150px);
+        }
+        .flow-img3{
+          @include image('img/step3.jpg', 100%, 150px);
+        }
+        .flow-img4{
+          @include image('img/step1.jpg', 100%, 150px);
+        }
+        .flow-img5{
+          @include image('img/step4.png', 100%, 150px);
+        }
+        .flow-img6{
+          @include image('img/step3.jpg', 100%, 150px);
+        }
+        .flow-img7{
+          @include image('img/step5.jpg', 100%, 150px);
+        }
+        .flow-img8{
+          @include image('img/step6.jpg', 100%, 150px);
+        }
+        .flow-img9{
+          @include image('img/step3.jpg', 100%, 150px);
+        }
+      }
+      .labolib-merits{
+        @include flex;
+        .each-labolib-merit{
+          width:48%;
+          .merit-desc{
+            width:95%;
+            font-size:12px;
+            line-height:22px;
+          }
+        }
+      }
+      .other-services{
+        width:400px;
+        margin:0 auto;
+        .each-other-services{
+          width:48%;
+          .other-services-name{
+            width:160px;
+            p{
+              font-size:14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:680px){
+  .merit{
+    .container{
+      .labolib-merits{
+        .each-labolib-merit{
+          .merit-desc{
+            width:95%;
+            font-size:14px;
+            line-height:24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:768px){
+  .eyecatch,
+  .eyecatch2{
+    .container{
+      .catchcopy{
+        font-size:26px;
+      }
+      h1{
+        font-size:36px;
+        margin:15px 0 50px;
+      }
+    }
+  }
+  .eyecatch,
+  .eyecatch2{
+    .buttontoregister{
+      @include button(300px,50px);
+      margin:15px 0;
+    }
+    .buttontosearch{
+      @include button(300px,43px);
+      margin:15px 0;
+    }
+    .buttontolabopartner{
+      @include button(300px,43px);
+      margin:15px 0;
+    }
+  }
+  .problem{
+    .prob-content{
+      padding:40px 0 29px;
+      .container{
+        @include flex;
+        .prob-each-content{
+          width:49%;
+          p{
+            width:97.5%;
+            font-size:13px;
+          }
+        }
+      }
+    }
+  }
+  .what-labolib{
+    .container{
+      padding:40px 0 1px;
+      .what-laboli-content{
+        margin:0 0 30px;
+      }
+    }
+  }
+  .merit{
+    .container{
+      padding:40px 0;
+      .for-large-flex{
+        @include flex;
+        .use-flow{
+          width:32%;
+          height:210px;
+          .flow-desc{
+            margin:10px 5px 0 5px;
+          }
+          .flow-img1{
+            @include image('img/step1.jpg', 100%, 120px);
+          }
+          .flow-img2{
+            @include image('img/step2.png', 100%, 120px);
+          }
+          .flow-img3{
+            @include image('img/step3.jpg', 100%, 120px);
+          }
+          .flow-img4{
+            @include image('img/step1.jpg', 100%, 120px);
+          }
+          .flow-img5{
+            @include image('img/step4.png', 100%, 120px);
+          }
+          .flow-img6{
+            @include image('img/step3.jpg', 100%, 120px);
+          }
+          .flow-img7{
+            @include image('img/step5.jpg', 100%, 120px);
+          }
+          .flow-img8{
+            @include image('img/step6.jpg', 100%, 120px);
+          }
+          .flow-img9{
+            @include image('img/step3.jpg', 100%, 120px);
+          }
+        }
+      }
+      .other-services{
+        @include flex;
+        width:500px;
+        .each-other-services{
+          width:48%;
+          .other-services-img1{
+            @include image('img/icon1.png', 100px,100px);
+          }
+          .other-services-img2{
+            @include image('img/icon2.png', 100px,100px);
+          }
+          .other-services-img3{
+            @include image('img/icon3.png', 100px,100px);
+          }
+          .other-services-img4{
+            @include image('img/icon4.png', 100px,100px);
+          }
+          .other-services-img5{
+            @include image('img/icon5.png', 100px,100px);
+          }
+          .other-services-name{
+            width:200px;
+            p{
+              font-size:14px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .start-beta{
+    .start-beta-band{
+      padding:40px 0;
+    }
+  }
+
+}
+
+@media screen and (min-width:834px){
+  .what-labolib{
+    .container{
+      .what-laboli-content{
+        margin:0 0 30px;
+        font-size:14px;
+        line-height:30px;
+      }
+    }
+  }
+    .merit{
+      .container{
+        .other-services{
+          @include flex;
+          width:100%;
+          .each-other-services{
+            width:19%;
+            .other-services-img1{
+              @include image('img/icon1.png', 80px,80px);
+            }
+            .other-services-img2{
+              @include image('img/icon2.png', 80px,80px);
+            }
+            .other-services-img3{
+              @include image('img/icon3.png', 80px,80px);
+            }
+            .other-services-img4{
+              @include image('img/icon4.png', 80px,80px);
+            }
+            .other-services-img5{
+              @include image('img/icon5.png', 80px,80px);
+            }
+            .other-services-name{
+              // width:160px;
+              width:auto;
+              p{
+                font-size:12px;
+              }
+            }
+          }
+        }
+      }
+    }
+}
+
+@media screen and (min-width:1024px){
+  .eyecatch,
+  .eyecatch2{
+    .container{
+      .catchcopy{
+        font-size:27px;
+      }
+      h1{
+        font-size:48px;
+      }
+    }
+  }
+  .problem{
+    .prob-question{
+      height:100px;
+      p{
+        line-height:100px;
+      }
+    }
+    .prob-content{
+      .container{
+        .prob-each-content{
+          border-radius:10px;
+          height:50px;
+          p{
+            font-size:14px;
+            line-height:50px;
+          }
+        }
+      }
+    }
+  }
+  .merit{
+    .container{
+      .other-services-index{
+        width:900px
+      }
+      .other-services-sub{
+        width:850px
+      }
+      .for-large-flex{
+        .use-flow{
+          height:240px;
+          .flow-desc{
+            margin:10px 5px 0 5px;
+          }
+          .flow-img1{
+            @include image('img/step1.jpg', 100%, 150px);
+          }
+          .flow-img2{
+            @include image('img/step2.png', 100%, 150px);
+          }
+          .flow-img3{
+            @include image('img/step3.jpg', 100%, 150px);
+          }
+          .flow-img4{
+            @include image('img/step1.jpg', 100%, 150px);
+          }
+          .flow-img5{
+            @include image('img/step4.png', 100%, 150px);
+          }
+          .flow-img6{
+            @include image('img/step3.jpg', 100%, 150px);
+          }
+          .flow-img7{
+            @include image('img/step5.jpg', 100%, 150px);
+          }
+          .flow-img8{
+            @include image('img/step6.jpg', 100%, 150px);
+          }
+          .flow-img9{
+            @include image('img/step3.jpg', 100%, 150px);
+          }
+        }
+      }
+      .other-services{
+        .each-other-services{
+          .other-services-img1{
+            @include image('img/icon1.png', 120px,120px);
+          }
+          .other-services-img2{
+            @include image('img/icon2.png', 120px,120px);
+          }
+          .other-services-img3{
+            @include image('img/icon3.png', 120px,120px);
+          }
+          .other-services-img4{
+            @include image('img/icon4.png', 120px,120px);
+          }
+          .other-services-img5{
+            @include image('img/icon5.png', 120px,120px);
+          }
+          .other-services-name{
+            width:160px;
+            p{
+              font-size:14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// style for accounts/login
+.login{
+  @include image('img/login.jpg',100%,100vh);
+  padding:50px 0 0;
+  position:relative;
+}
+
+.loginbox{
+  box-shadow: 2px 3px 10px #333;
+  position:absolute;
+  width:90%;
+  top:50%;
+  left:50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  background-color:#fff;
+  background:rgba(255,255,255,0.95);
+  padding:30px 0;
+  .login-container{
+    width:90%;
+    margin:0 auto;
+    .logo{
+      display:block;
+      margin:17px 0 30px;
+      @include image('img/logo.png',200px,25px);
+    }
+    .login-p{
+      font-size:18px;
+      font-weight:500;
+      margin:0 0 15px;
+    }
+    form{
+      .login-label{
+        font-size:16px;
+        margin:0;
+      }
+      .form-control{
+        width:250px;
+        height:30px;
+        border:2px solid #20B6A2;
+        background-color:#fff;
+        opacity:1;
+        margin:0 0 15px;
+      }
+      #id_password{
+        margin:0 0 30px;
+      }
+      button{
+        width:100px;
+        height:35px;
+        color:#fff;
+        border:none;
+        background: rgb(74,203,186);
+        background: linear-gradient(0deg, rgba(74,203,186,1) 0%, rgba(32,182,162,1) 100%);
+      }
+    }
+  }
+}
+
+@media screen and (min-width:600px){
+  .loginbox{
+    width:400px;
+    padding:30px 0 40px;
+    .login-container{
+      form{
+        .form-control{
+          width:300px;
+        }
+        button{
+          width:120px;
+          height:40px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:1025px){
+  .loginbox{
+    width:600px;
+    .login-container{
+      width:400px;
+    }
+  }
+}
+
+// style for accounts/user_create
+.user-create{
+  padding:80px 0 30px;
+  width:100%;
+  background: rgb(113,224,209);
+  background: linear-gradient(0deg, rgba(113,224,209,1) 0%, rgba(32,182,162,1) 100%);
+  .user-create-box{
+    box-shadow: 2px 3px 10px #333;
+    width:90%;
+    margin:0 auto;
+    background-color:#fff;
+    background:rgba(255,255,255,0.95);
+    padding:30px 0;
+    .user-create-container{
+      width:90%;
+      margin:0 auto;
+      .register-p{
+        font-size:18px;
+        font-weight:500;
+        margin:0 0 15px;
+      }
+      form{
+        .register-label{
+          font-size:16px;
+        }
+        .form-control{
+          width:250px;
+          height:30px;
+          border:2px solid #20B6A2;
+          background-color:#fff;
+          opacity:1;
+          margin:0 0 15px;
+        }
+        #id_is_lab_member{
+          width:22px;
+          height:22px;
+          margin:0 0 15px;
+        }
+        button{
+          display:block;
+          width:100px;
+          height:35px;
+          color:#fff;
+          margin:15px auto;
+          border:none;
+          background: rgb(223,115,23);
+          background: linear-gradient(0deg, rgba(223,115,23,1) 0%, rgba(237,148,71,1) 100%);
+        }
+        .attention{
+          font-size:12px;
+          line-height:20px;
+        }
+      }
+    }
+  }
+}
+
+.for-missing-belongs{
+  .container{
+    padding:30px 0 ;
+    a{
+      font-size:14px;
+      line-height:24px;
+      text-decoration:underline;
+    }
+  }
+}
+
+@media screen and (min-width:600px){
+  .user-create{
+    .user-create-box{
+      margin:0 auto;
+      width:87%;
+      .user-create-container{
+        width:420px;
+        margin:0 0 0 6.5%;
+        form{
+          .form-content{
+            display:flex;
+            justify-content:space-between;
+          }
+          .form-control{
+            margin:0 0 20px;
+          }
+          button{
+            display:block;
+            width:200px;
+            margin:20px auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:768px){
+  .user-create{
+    .user-create-box{
+      width:700px;
+      margin:0 auto;
+      .user-create-container{
+        width:600px;
+        margin:0 0 0 6.5%;
+        form{
+          .form-control{
+            width:350px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:1025px){
+  .user-create{
+    .user-create-box{
+      width:900px;
+      margin:0 auto;
+      .user-create-container{
+        width:600px;
+        margin:0 0 0 6.5%;
+      }
+    }
+  }
+}
+
+// style for accounts/user_create_done
+.register-done{
+  padding:80px 0 50px;
+  .container{
+    p{
+      font-size:14px;
+      line-height:24px;
+    }
+  }
+}
+// style for accounts/user_create_complete
+.register-complete{
+  padding:80px 0 30px;
+  .container{
+    p{
+      font-size:14px;
+      line-height:24px;
+    }
+    .button{
+      display:block;
+      margin:30px auto 0;
+      width:100px;
+      height:35px;
+      background: rgb(74,203,186);
+      background: linear-gradient(0deg, rgba(74,203,186,1) 0%, rgba(32,182,162,1) 100%);
+      p{
+        text-align:center;
+        line-height:35px;
+        font-size:16px;
+        font-weight:500;
+        color:#fff;
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width:600px){
+  .register-complete{
+    .container{
+      .button{
+        display:block;
+        margin:30px 0 0 0;
+        width:140px;
+      }
+    }
+  }
+}
+// style for accounts/user_create_approval_complete
+// style for accounts/laboratory_create
+// style for accounts/department_create
+// style for accounts/university_create
+.create_belongs{
+  padding:80px 0 30px;
+  .container{
+    form{
+      input,select{
+        width:250px;
+        height:30px;
+        border:2px solid #20B6A2;
+        background-color:#fff;
+        opacity:1;
+        margin:0 0 15px;
+      }
+      #id_is_lab_member{
+        width:22px;
+        height:22px;
+        margin:0 0 15px;
+      }
+      button{
+        display:block;
+        width:100px;
+        height:35px;
+        color:#fff;
+        margin:15px auto;
+        border:none;
+        background: rgb(74,203,186);
+        background: linear-gradient(0deg, rgba(74,203,186,1) 0%, rgba(32,182,162,1) 100%);
+      }
+    }
+  }
+}
+
+@media screen and (min-width:600px){
+  .create_belongs{
+    .container{
+      form{
+        width:450px;
+        .form-group{
+          display:flex;
+          justify-content: space-between;
+        }
+        button{
+          width:150px;
+        }
+      }
+    }
+  }
+}
+// style for accounts/user_delete_confirm
+// style for accounts/user_delete
+.delete{
+  padding:80px 0 30px;
+  .container{
+    p{
+      font-size:14px;
+      line-height:24px;
+      margin:0 0 30px;
+    }
+    .button{
+      display:block;
+      margin:0 auto 10px;
+      width:200px;
+      height:35px;
+      background: rgb(74,203,186);
+      background: linear-gradient(0deg, rgba(74,203,186,1) 0%, rgba(32,182,162,1) 100%);
+      p{
+        text-align:center;
+        line-height:35px;
+        font-size:16px;
+        font-weight:400;
+        color:#fff;
+      }
+    }
+  }
+}
+
+@media screen and (min-width:600px){
+  .delete{
+    .container{
+      .button{
+        margin:0 0 10px 0;
+      }
+    }
+  }
+}
+// style for search_lab/disclaimer
+// style for search_lab/privacy_policy
+// style for search_lab/terms_of_service
+.site-formal-info{
+  padding:80px 0 30px;
+  .container{
+    .site-formal-info-p{
+      font-size:18px;
+      font-weight:500;
+      margin:0 0 15px;
+    }
+    p{
+      font-size:14px;
+      line-height:24px;
+    }
+    .site-formal-info-content{
+      margin:0 0 15px;
+    }
+    table{
+      margin:0 0 15px;
+      font-size:12px;
+      .table-left{
+        width:100px;
+      }
+      .table-middle{
+        width:60px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width:375px){
+  .site-formal-info{
+    .container{
+      table{
+        font-size:12px;
+        .table-left{
+          width:140px;
+        }
+        .table-middle{
+          width:60px;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width:600px){
+  .site-formal-info{
+    .container{
+      table{
+        font-size:14px;
+        .table-left{
+          width:220px;
+        }
+        .table-middle{
+          width:130px;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width:1024px){
+  .site-formal-info{
+    .container{
+      table{
+        .table-left{
+          width:350px;
+        }
+        .table-middle{
+          width:180px;
+        }
+      }
+    }
+  }
+}
+// style for about_administrator
+.about-member{
+  padding:80px 0 30px;
+  .container{
+    .about-member-p{
+      font-size:18px;
+      font-weight:500;
+      margin:0 0 15px;
+    }
+    .profiles{
+      .each-profile{
+        width:100%;
+        margin:0 0 15px;
+        padding:20px 0;
+        box-shadow: 3px 6px 6px #aaa;
+        .each-img{
+        }
+        .profimg1{
+          @include image('img/profimg1.jpg',100%,300px)
+        }
+        .profimg2{
+          @include image('img/profimg2.jpeg',100%,300px)
+        }
+        .profimg3{
+          @include image('img/profimg3.jpg',100%,300px)
+        }
+        .profimg4{
+          @include image('img/profimg4.jpg',100%,300px)
+        }
+        .profname{
+          font-size:24px;
+          margin:15px 0;
+        }
+        .profdesc{
+          font-size:14px;
+          line-height:24px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:600px){
+  .about-member{
+    .container{
+      .profiles{
+        .each-profile{
+          .profimg1{
+            @include image('img/profimg1.jpg',100%,500px)
+          }
+          .profimg2{
+            @include image('img/profimg2.jpeg',100%,500px)
+          }
+          .profimg3{
+            @include image('img/profimg3.jpg',100%,500px)
+          }
+          .profimg4{
+            @include image('img/profimg4.jpg',100%,500px)
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:834px){
+  .about-member{
+    .container{
+      .profiles{
+        .each-profile{
+          .container{
+            display:flex;
+            justify-content:space-between;
+            .profimg1{
+              @include image('img/profimg1.jpg',300px,300px)
+            }
+            .profimg2{
+              @include image('img/profimg2.jpeg',300px,300px)
+            }
+            .profimg3{
+              @include image('img/profimg3.jpg',300px,300px)
+            }
+            .profimg4{
+              @include image('img/profimg4.jpg',300px,300px)
+            }
+            .flex-for-large{
+              width:calc(96% - 300px);
+              .profname{
+                font-size:24px;
+                margin:0 0 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

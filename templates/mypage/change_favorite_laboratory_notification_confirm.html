@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="change-favo">
+  <div class="container">
+    <p class="change-favo-p">現在の設定は{{ user.favorite_laboratory_notification }}です。<br>設定を変更しますか？<br>有効にするとあなたが研究室をお気に入り登録した場合、相手の研究室にその通知が届くため何かの機会が生まれるかもしれません。</p>
+    <a class="button" href="{% url 'mypage:change_favorite_laboratory_notification_complete' %}"><p>変更する</p></a>
+    <a class="change-favo-selection" href="{% url 'mypage:mypage' %}">マイページに戻る</a>
+  </div>
+</div>
+{% endblock %}

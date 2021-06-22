@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="lab-photo-console">
+  <div class="container">
+    <p class="lab-photo-console-p">削除確認画面</p>
+    <form method="post" class="delete-form">
+        {% csrf_token %}
+        <p class="delete-confirm-p">{{ object.title }}を削除しますか？</p>
+        <input type="submit" value="削除する" class="delete-exe">
+    </form>
+  </div>
+</section>
+{% endblock %}

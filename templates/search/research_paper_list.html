@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<section class="paper">
+  <div class="container">
+      <div class="papers">
+      {% if paper_list %}
+        {% for paper in paper_list %}
+          <div class="each-paper">
+            <div class="container">
+              <p class="paper-title"><span class="bold">タイトル</span><br>{{ paper.paper_title }}</p>
+              <p class="paper-desc"><span class="bold">詳細</span><br>{{ paper.paper_info }}</p>
+              <a class="dl" href="{% url 'search:paper_download' paper.pk %}"><p>ダウンロード</p></a>
+            </div>
+          </div>
+        {% endfor %}
+      {% else %}
+      <p>まだ論文は投稿されていません</p>
+      {% endif %}
+      </div>
+      <a href="javascript:history.back();" class="button"><p>前のページに戻る</p></a>
+  </div>
+</section>
+{% endblock %}

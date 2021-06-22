@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="register-lab">
+  <div class="container">
+    <p class="register-lab-p">研究室登録</p>
+    <div class="jumbotron">
+      <p class="decided-list">登録しました。</p>
+      <a class="gobacktomypage" href="{% url 'laboratory_page:lab_page_home' %}">研究室ページに戻る</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

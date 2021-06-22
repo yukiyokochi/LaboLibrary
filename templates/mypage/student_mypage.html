@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="mypage">
+  <div class="mypage-band">
+    <p class="mypage-p">学生マイページ</p>
+  </div>
+  <div class="mypage-container">
+    <div class="mypage-menu">
+      <div class="container">
+        <p class="welcome">ようこそ。{{ user.last_name }} {{ user.first_name }}さん</p>
+        <a class="mypage-selection" href="{% url 'contact_form:index' %}">管理者へお問い合わせ</a><br>
+        <a class="mypage-selection" href="{% url 'accounts:logout' %}">ログアウト</a>
+        <!-- {% if not user_profile %}
+        <a href="{% url 'mypage:create_user_profile' %}">プロフィール作成</a>
+        {% else %}
+        <a href="{% url 'mypage:user_profile_update' user_profile.pk%}">プロフィール編集</a>
+        {% endif %} -->
+      </div>
+    </div>
+    <div class="faborite-labos">
+      <div class="container">
+        <p class="favorite-labos-p">お気に入り研究室</p>
+        <div class="favorite-lablist">
+          {% if favorite_laboratory %}
+            {% for favorite_lab in favorite_laboratory %}
+            <div class="each-favorite-labo">
+              <div class="container">
+                <p class="favorite-labo-title">{{ favorite_lab.laboratory.laboratory_name }}</p>
+                <p class="favorite-labo-belongs">{{ favorite_lab.laboratory.belong_university }}-{{ favorite_lab.laboratory.belong_department }}</p>
+                <p class="favorite-labo-keywords">{{ favorite_lab.laboratory.research_keywords }}</p>
+                <a class="button" href="{% url 'search:detail' lab_pk=favorite_lab.pk %}"><p>研究室詳細</p></a>
+              </div>
+            </div>
+            {% endfor %}
+          {% else %}
+             <p class="favorite-lab-notfound">お気に入りに登録した研究室はありません</p>
+          {% endif %}
+        </div>
+        <!-- {% if user_profile %}
+        <a href="{% url 'mypage:user_profile' %}">プロフィール</a>
+        {% endif %} -->
+        <a class="favorite-selection button" href="{% url 'mypage:change_favorite_laboratory_notification_confirm' %}"><p>お気に入り通知を変更する</p></a>
+        <!-- <h2>チャット</h2>
+        {% if chat_with is not None %}
+            {% for talk_to in chat_with %}
+                {% if talk_to.receive_user.first_name != user.first_name %}
+                {{ talk_to.receive_user.first_name }}
+                <a href="{% url 'chat:chat_between_user_and_user' talk_to.receive_user.pk %}">チャットをする</a>
+                <br>
+                {% endif %}
+            {% endfor %}
+        {% endif %} -->
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

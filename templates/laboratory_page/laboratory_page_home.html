@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="labo-page-home">
+  <div class="labo-page-home-band">
+    <p class="labo-page-home-p">研究室ページ</p>
+  </div>
+  <div class="labo-page-menu">
+    <div class="container">
+      {% if laboratory_info is None %}
+      <a class="labo-page-selection" href="{% url 'register_lab:register' %}">研究室登録</a><br>
+      {% endif %}
+      {% if laboratory_info %}
+      <a class="labo-page-selection" href="{% url 'laboratory_page:labdata_update' laboratory_info.pk %}">記載研究室情報編集</a><br>
+      <a class="labo-page-selection" href="{% url 'laboratory_page:lab_info_delete' %}">記載研究室情報削除</a><br>
+      {% endif %}
+      <a class="labo-page-selection" href="{% url 'register_lab:paper_upload' %}">論文アップロード</a><br>
+      <a class="labo-page-selection" href="{% url 'register_lab:image_upload' %}">画像アップロード</a><br>
+      <a class="labo-page-selection" href="{% url 'mypage:mypage' %}">マイページに戻る</a><br>
+      <a class="labo-page-selection" href="{% url 'accounts:logout' %}">ログアウト</a>
+    </div>
+  </div>
+  <div class="labo-page-lists">
+    <div class="container">
+      <p class="labo-page-lists-p">記載論文リスト</p>
+      <div class="paper-list">
+      {% if paper_list %}
+        {% for paper in paper_list %}
+          <div class="each-paper">
+            <div class="container">
+              <p class="paper-title"><span class="bold">タイトル</span><br>{{ paper.paper_title }}</p>
+              <p class="paper-desc"><span class="bold">詳細</span><br>{{ paper.paper_info }}</p>
+              <div class="flex-dl">
+                <a class="dl" href="{% url 'search:paper_download' paper.pk %}"><p>ダウンロード</p></a>
+                <a class="dl" href="{% url 'register_lab:paper_delete' paper.pk %}"><p>削除</p></a>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      {% else %}
+      <p class="not-found">まだ論文は投稿されていません</p>
+      {% endif %}
+      </div>
+      <p class="labo-page-lists-p">記載写真リスト</p>
+      <div class="photo-list">
+      {% if image_list %}
+        {% for image in image_list %}
+          <div class="each-photo">
+            <div class="container">
+              <p class="img-title">{{ image.title }}</p>
+              <img src='media/{{image.picture}}'>
+              <a class="dl" href="{% url 'register_lab:image_delete' image.pk %}"><p>削除</p></a>
+            </div>
+          </div>
+        {% endfor %}
+      {% else %}
+      <p class="not-found">まだ写真は投稿されていません</p>
+      {% endif %}
+      </div>
+      <p class="labo-page-lists-p">お気に入り登録者</p>
+      <div class="favorited-list">
+        <p class="favorited-list-attention">※あなたの研究室をお気に入り登録しており、かつ研究室へのお気に入り通知をONにしているユーザーが以下に表示されます。</p>
+        {% if liked_by %}
+        {% for user in liked_by %}
+            {% if user.favorite_laboratory_notification and user.is_active %}
+            <p class="favorited-user">{{ user.last_name }} {{ user.first_name }}さん ({{ user.university }}{{ user.department }})</p>
+                  <!-- <td><a href="{% url 'laboratory_page:laboratory_favorite_user' user.pk %}">詳細</a></td> -->
+                  <!-- <td><a href="{% url 'chat:chat_between_user_and_user' user.pk %}">チャットをする</a></td> -->
+            {% endif %}
+        {% endfor %}
+        {% else %}
+        <p class="not-found">まだ登録者はいません</p>
+        {% endif %}
+      </div>
+      <!-- <h2>通知リスト</h2>
+          <table>
+            {% for notification in lab_notifications %}
+                <tr>
+                    <td>{{ notification.title }}</td>
+                    <td>{{ notification.kind_of_notification }}</td>
+                    <td>{{ notification.send_user.last_name }}</td>
+                    <td><a href="{% url 'laboratory_page:notification' notification.pk %}">詳細</a></td>
+                </tr>
+            {% endfor %}
+          </table> -->
+      <p class="labo-page-lists-p">登録メンバー</p>
+      <div class="member-list">
+        {% if laboratory_members %}
+        {% for member in laboratory_members %}
+          <p class="member-name">{{ member.last_name }}  {{ member.first_name }}</p>
+        {% endfor %}
+        {% else %}
+        <p class="not-found">まだ登録者はいません</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

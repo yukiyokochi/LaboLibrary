@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="contact-form">
+  <div class="container">
+    <p class="contact-p">お問い合わせ</p>
+       <form method="post">
+         {% csrf_token %}
+         {{ form.non_field_errors }}
+
+         {% for field in form %}
+           <div>
+             <label for="{{ field.id_for_label }}">
+               {{ field.label_tag }}
+             </label>
+             <div>
+               {{ field }}
+               {{ field.errors }}
+             </div>
+           </div>
+         {% endfor %}
+         <button type="submit">送信</button>
+       </form>
+    <a class="contact-selection" href="{% url 'feedback:index' %}">ベータ版へのフィードバック</a><br>
+    <a class="contact-selection" href="{% url 'accounts:user_delete_confirm' %}">退会する</a>
+  </div>
+</section>
+{% endblock %}

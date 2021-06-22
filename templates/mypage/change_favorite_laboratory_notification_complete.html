@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="change-favo-complete">
+  <div class="container">
+    <p class="change-favo-complete-p">設定を{{ user.favorite_laboratory_notification }}に変更しました。</p>
+    <a class="button" href="{% url 'mypage:mypage' %}"><p>マイページに戻る</p></a>
+  </div>
+</div>
+{% endblock %}

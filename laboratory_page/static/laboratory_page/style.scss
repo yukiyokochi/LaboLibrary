@@ -1,0 +1,162 @@
+// style for laboratory_page/laboratory_page_home
+.labo-page-home{
+  padding:50px 0 30px;
+  .labo-page-home-band{
+    width:100%;
+    height:60px;
+    background: rgb(74,203,186);
+    background: linear-gradient(0deg, rgba(74,203,186,1) 0%, rgba(32,182,162,1) 100%);
+    .labo-page-home-p{
+      font-size:18px;
+      font-weight:500;
+      margin:0 0 15px;
+      color:#fff;
+      line-height:60px;
+      text-align:center;
+    }
+  }
+  .labo-page-menu{
+    width:100%;
+    background-color:#D6F2EE;
+    .container{
+      padding:15px 0;
+      .welcome{
+        font-size:16px;
+        margin:0 0 15px;
+        font-weight:500;
+      }
+      .labo-page-selection{
+        font-size:14px;
+        line-height:30px;
+      }
+    }
+  }
+  .labo-page-lists{
+    padding:30px 0 0;
+    .container{
+      .not-found{
+        font-size:14px;
+        margin:0 0 30px;
+      }
+      .labo-page-lists-p{
+        font-size:18px;
+        font-weight:500;
+        margin:0 0 15px;
+      }
+      .each-paper{
+        margin:0 0 30px;
+        width:100%;
+        background-color:#fff;
+        box-shadow: 2px 3px 10px #aaa;
+        padding:15px 0;
+        .container{
+          p{
+            margin:0 0 15px;
+            font-size:14px;
+            line-height:24px;
+          }
+          .flex-dl{
+            display:flex;
+            justify-content: space-between;
+            width:270px;
+            margin:0 auto;
+            .dl{
+              display:block;
+              width:120px;
+              height:30px;
+              border-radius: 15px;
+              border:1px solid #20B6A2;
+              margin:0 auto;
+              background-color:#fff;
+              p{
+                font-size:14px;
+                line-height:30px;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+      .each-photo{
+        margin:0 0 30px;
+        width:100%;
+        background-color:#fff;
+        box-shadow: 2px 3px 10px #aaa;
+        padding:15px 0;
+        .container{
+          .img-title{
+            font-size:14px;
+            line-height:24px;
+            margin:0 0 15px;
+          }
+          img{
+            width:100%;
+            height:auto;
+            margin:0 0 15px;
+          }
+          .dl{
+            display:block;
+            width:120px;
+            height:30px;
+            border-radius: 15px;
+            border:1px solid #20B6A2;
+            margin:0 auto;
+            background-color:#fff;
+            p{
+              font-size:14px;
+              line-height:30px;
+              text-align: center;
+            }
+          }
+        }
+      }
+      .favorited-list{
+        margin:0 0 30px;
+        .favorited-list-attention{
+          font-size:12px;
+          line-height:20px;
+          margin:0 0 15px;
+        }
+        .favorited-user{
+          font-size:14px;
+          line-height:24px;
+        }
+      }
+      .member-list{
+        .member-name{
+          font-size:14px;
+          line-height:24px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:768px){
+  .labo-page-home{
+    .labo-page-lists{
+      padding:30px 0 0;
+      .container{
+        .paper-list{
+          display:flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          .each-paper{
+            width:48%;
+          }
+        }
+        .photo-list{
+          display:flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          .each-photo{
+            width:48%;
+          }
+        }
+      }
+    }
+  }
+}
+
+// style for laboratory_page/notification_detail
+// COMING SOON

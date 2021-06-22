@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<section class="detail">
+  <div class="container">
+    <p class="labo-title">{{ laboratory_info }}</p>
+    {% if laboratory_info.id not in user_favorite_laboratories_id %}
+    <form action="{% url 'search:follow' laboratory_info.pk %}" method="post">
+      <button type="submit" name="button" class="favorite_button">お気に入りに追加</button>
+      {% csrf_token %}
+    </form>
+    {% endif %}
+    {% if laboratory_info.id in user_favorite_laboratories_id %}
+    <form action="{% url 'search:remove_follow' laboratory_info.pk %}" method="post">
+      <button type="submit" name="button" class="favorite_button">お気に入りから削除</button>
+      {% csrf_token %}
+    </form>
+    {% endif %}
+    {% if follow_complete %}
+        <p class="favorite-p">お気に入りに登録しました。</p>
+    {% endif %}
+    {% if remove_follow_complete %}
+        <p class="favorite-p">お気に入りから削除しました。</p>
+    {% endif %}
+    <p class="detail-p">この研究室の写真</p>
+    {% for image in image_list %}
+    <img src='/../../laboratory_page/media/{{image.picture}}'>
+    {% endfor %}
+    <p class="detail-p">基本情報</p>
+    <table>
+      <tr>
+        <td valign="top" class="table-left">大学</td>
+        <td valign="top" class="table-right">{{ laboratory.belong_university }}</td>
+      </tr>
+      <tr>
+        <td valign="top" class="table-left">学部・研究科</td>
+        <td valign="top" class="table-right">{{ laboratory.belong_faculty }}</td>
+      </tr>
+      <tr>
+        <td valign="top" class="table-left">学科・専攻</td>
+        <td valign="top" class="table-right">{{ laboratory.belong_department }}</td>
+      </tr>
+      <tr>
+        <td valign="top" class="table-left">キーワード</td>
+        <td valign="top" class="table-right">{{ laboratory_info.research_keywords }}</td>
+      </tr>
+      <tr>
+        <td valign="top" class="table-left">研究詳細</td>
+        <td valign="top" class="table-right">{{ laboratory_info.research_info }}</td>
+      </tr>
+      <tr>
+        <td valign="top" class="table-left">キャンパス</td>
+        <td valign="top" class="table-right">{{ laboratory_info.campus }}</td>
+      </tr>
+      <tr>
+        <td valign="top" class="table-left">研究室HP</td>
+        <td valign="top" class="table-right">{{ laboratory_info.laboratory_website }}</td>
+      </tr>
+      <tr>
+        <td valign="top" class="table-left">担当教員</td>
+        <td valign="top" class="table-right">{{ laboratory_info.professor_name }}</td>
+      </tr>
+      <tr>
+        <td valign="top" class="table-left">生徒数</td>
+        <td valign="top" class="table-right">全体:{{ laboratory_info.all_student_count }}人<br>修士:{{ laboratory_info.master_count }}人<br>博士:{{ laboratory_info.doctor_count }}人</td>
+      </tr>
+    </table>
+    <p class="detail-p">内部情報</p>
+    <table>
+      <tr>
+        <td valign="top" class="table-left">進学先・就職先</td>
+        <td valign="top" class="table-right">{{ laboratory_info.after_graduation }}</td>
+      </tr>
+      <tr>
+        <td valign="top" class="table-left">院生受け入れ状況</td>
+        <td valign="top" class="table-right">修士:{{ laboratory_info.master_acceptance }}<br>博士:{{ laboratory_info.doctor_acceptance }}<br>社会人:{{ laboratory_info.adult_graduate_student_acceptance }}</td>
+      </tr>
+      <tr>
+        <td valign="top" class="table-left">研究室の空気</td>
+        <td valign="top" class="table-right">{{ laboratory_info.environment }}</td>
+      </tr>
+      <tr>
+        <td valign="top" class="table-left">外部性の馴染みやすさ</td>
+        <td valign="top" class="table-right">{{ laboratory_info.students_rate }}</td>
+      </tr>
+      <tr>
+        <td valign="top" class="table-left">就活のしやすさ</td>
+        <td valign="top" class="table-right">{{ laboratory_info.Employment_rate }}</td>
+      </tr>
+      <tr>
+        <td valign="top" class="table-left">登録メンバー</td>
+        <td valign="top" class="table-right">
+          {% for member in laboratory_member %}
+            {{ member.last_name }}  {{ member.status_position }}<br>
+          {% endfor %}
+        </td>
+      </tr>
+    </table>
+    <a class="button" href="{% url 'search:research_paper_list' lab_pk=laboratory_info.pk%}"><p>この研究室の論文をみる</p></a>
+    <!-- <a href="{% url 'search:send_message_for_lab' laboratory_info.pk %}">研究室に問い合わせる</a> -->
+    <a class="button" href="{{ laboratory_info.information_source }}" target="_blank"><p>研究室ホームページへ</p></a>
+    <p class="about-page-p">ページ作成日:{{ laboratory_info.page_create_date }}<br>ページ更新日:{{ laboratory_info.page_update_date }}<br>情報源:{{ laboratory_info.information_source }}<br>運営者による情報確認:{{ laboratory_info.confirmation }}</p>
+    <a class="button" href="javascript:history.back();"><p>前のページに戻る</p></a>
+    <a class="button" href="{% url 'index' %}"><p>トップページに戻る</p></a>
+  </div>
+</section>
+{% endblock %}

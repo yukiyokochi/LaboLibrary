@@ -1,0 +1,180 @@
+// style for mypage/student_mypage
+// style for mypage/researcher_mypage
+.mypage{
+  padding:50px 0 30px;
+  .mypage-band{
+    width:100%;
+    height:60px;
+    background: rgb(74,203,186);
+    background: linear-gradient(0deg, rgba(74,203,186,1) 0%, rgba(32,182,162,1) 100%);
+  }
+  .mypage-p{
+    font-size:18px;
+    font-weight:500;
+    margin:0 0 15px;
+    color:#fff;
+    line-height:60px;
+    text-align:center;
+  }
+  .mypage-menu{
+    width:100%;
+    background-color:#D6F2EE;
+    .container{
+      padding:30px 0;
+      .welcome{
+        font-size:16px;
+        margin:0 0 15px;
+        font-weight:500;
+      }
+      .mypage-selection{
+        font-size:14px;
+        line-height:30px;
+      }
+    }
+  }
+  .faborite-labos{
+    padding:30px 0 0;
+    .container{
+      .favorite-labos-p{
+        font-size:18px;
+        font-weight:500;
+        margin:0 0 15px;
+      }
+      .favorite-lablist{
+        margin:0 0 30px;
+        .each-favorite-labo{
+          width:100%;
+          padding:15px 0;
+          box-shadow: 3px 6px 6px #aaa;
+          .container{
+            .favorite-labo-title{
+              font-size:16px;
+              font-weight:500;
+              margin:0 0 5px
+            }
+            .favorite-labo-belongs{
+              font-size:14px;
+              margin:0 0 5px
+            }
+            .favorite-labo-keywords{
+              font-size:14px;
+            }
+            .button{
+              display:block;
+              margin:15px auto 0;
+              width:140px;
+              height:35px;
+              background: rgb(74,203,186);
+              background: linear-gradient(0deg, rgba(74,203,186,1) 0%, rgba(32,182,162,1) 100%);
+              p{
+                text-align:center;
+                line-height:35px;
+                font-size:16px;
+                font-weight:400;
+                color:#fff;
+              }
+            }
+          }
+        }
+        .favorite-lab-notfound{
+          font-size:14px;
+        }
+      }
+      .button{
+        display:block;
+        margin:0 auto;
+        width:240px;
+        height:35px;
+        background: rgb(74,203,186);
+        background: linear-gradient(0deg, rgba(74,203,186,1) 0%, rgba(32,182,162,1) 100%);
+        p{
+          text-align:center;
+          line-height:35px;
+          font-size:16px;
+          font-weight:400;
+          color:#fff;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:768px){
+  .mypage{
+    .faborite-labos{
+      .container{
+        .favorite-lablist{
+          display:flex;
+          justify-content: space-between;
+          .each-favorite-labo{
+            width:48%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// style for mypage/user_profile
+// style for mypage/edit_user_profile
+// style for mypage/create_user_profile
+// style for mypage/edit_user_profile_complete
+// style for mypage/create_user_profile_complete
+// COMING SOON
+
+// style for mypage/change_favorite_laboratory_notification_confirm
+.change-favo{
+  padding:80px 0 30px;
+  .container{
+    .change-favo-p{
+      font-size:14px;
+      line-height:24px;
+    }
+    .button{
+      display:block;
+      margin:15px auto;
+      width:140px;
+      height:35px;
+      background: rgb(74,203,186);
+      background: linear-gradient(0deg, rgba(74,203,186,1) 0%, rgba(32,182,162,1) 100%);
+      p{
+        text-align:center;
+        line-height:35px;
+        font-size:16px;
+        font-weight:400;
+        color:#fff;
+      }
+    }
+    .change-favo-selection{
+      display:block;
+      text-align:center;
+      font-size:14px;
+    }
+  }
+}
+// style for mypage/change_favorite_laboratory_notification_complete
+.change-favo-complete{
+  padding:80px 0 30px;
+  .container{
+    .change-favo-complete-p{
+      font-size:14px;
+      line-height:24px;
+    }
+    .button{
+      display:block;
+      margin:15px auto 0;
+      width:200px;
+      height:35px;
+      background: rgb(74,203,186);
+      background: linear-gradient(0deg, rgba(74,203,186,1) 0%, rgba(32,182,162,1) 100%);
+      p{
+        text-align:center;
+        line-height:35px;
+        font-size:16px;
+        font-weight:400;
+        color:#fff;
+      }
+    }
+  }
+}

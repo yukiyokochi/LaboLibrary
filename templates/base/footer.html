@@ -1,0 +1,38 @@
+{% load static %}
+<footer>
+  <div class="container">
+    <a href="{% url 'index' %}" class="logo"></a>
+    <div class="for-large-flex">
+      <div class="flex">
+        <div class="footer-menu">
+          <p class="footer-menu-title">コンテンツ</p>
+          <!-- <a href="{% url 'blog:index' %}">院試情報</a><br>
+          <a href="{% url 'articles:index' %}">院試特集</a><br> -->
+          <a href="{% url 'mypage:mypage' %}">マイページ</a><br>
+          <a href="{% url 'laboratory_page:lab_page_home' %}">研究室専用ページ</a>
+        </div>
+        <div class="footer-menu">
+          <p class="footer-menu-title">当サイトについて</p>
+          <a href="{% url 'about_administrator' %}">メンバー紹介</a><br>
+          <a href="{% url 'disclaimer' %}">著作権・免責事項</a><br>
+          <a href="{% url 'privacy_policy' %}">プライバシーポリシー</a><br>
+          <a href="{% url 'terms_of_service' %}">利用規約</a><br>
+          <a href="{% url 'contact_form:index' %}">お問い合わせ</a><br>
+          <a href="{% url 'feedback:index' %}">β版へのフィードバック</a>
+        </div>
+      </div>
+      <div class="buttons">
+        <div class="buttontoregister">
+          <a href="{% url 'accounts:user_create' %}">無料会員登録</a>
+        </div>
+        <div class="buttontosearch">
+          <a href="{% url 'search:search' %}">研究室を検索してみる</a>
+        </div>
+        <div class="buttontolabopartner">
+          <a href="{% url 'index_for_lab' %}">掲載希望の研究室関係者の方</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="copyright">Copyright&copy; LaboLibrary All Rights Reserved.</p>
+</footer>

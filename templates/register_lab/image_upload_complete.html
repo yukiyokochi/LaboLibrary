@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="lab-photo-console">
+  <div class="container">
+    <p class="upload-comp">アップロードしました。</p>
+    <a class="lab-photo-console-selection" href="{% url 'register_lab:paper_upload' %}">続けてアップロード</a><br>
+    <a class="lab-photo-console-selection" href="{% url 'laboratory_page:lab_page_home' %}">研究室マイページに戻る</a><br>
+    <a class="lab-photo-console-selection" href="{% url 'index' %}">ホームに戻る</a>
+  </div>
+</section>
+{% endblock %}

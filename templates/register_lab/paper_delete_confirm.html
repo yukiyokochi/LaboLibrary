@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="lab-paper-console">
+  <div class="container">
+    <p class="lab-paper-console-p">削除確認画面</p>
+    <form method="post" class="delete-form">
+        {% csrf_token %}
+        <p class="delete-confirm-p">{{ object.paper_title }}を削除しますか？</p>
+        <input class="delete-exe" type="submit" value="削除する">
+    </form>
+  </div>
+</section>
+{% endblock %}

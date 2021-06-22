@@ -1,0 +1,217 @@
+{% load static %}
+{% load sass_tags %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Labo Library</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Labo Libraryは学校学科専攻をまたいだキーワードによる研究室検索および、学生と研究室が気軽にコンタクトをとれる場を提供することで、双方にミスマッチのない研究室探しを支援するサービスです。さらに、学生がプロフィールや希望の条件を設定することで、それに興味を持った研究室からスカウトがくるなど全く新しい形での学生と研究室のマッチングを実現しています">
+<meta name="keywords" content="研究室探し,やりたい研究,見つからない,研究室検索">
+<link rel="stylesheet" href="{% static "css/style.css"%}">
+<link rel="stylesheet" href="{% sass_src 'contact_form/style.scss' %}">
+<link rel="stylesheet" href="{% sass_src 'feedback/style.scss' %}">
+<link rel="stylesheet" href="{% sass_src 'laboratory_page/style.scss' %}">
+<link rel="stylesheet" href="{% sass_src 'accounts/style.scss' %}">
+<link rel="stylesheet" href="{% sass_src 'register_lab/style.scss' %}">
+<link rel="stylesheet" href="{% sass_src 'search/style.scss' %}">
+<link rel="stylesheet" href="{% sass_src 'data_upload/style.scss' %}">
+<link rel="stylesheet" href="{% sass_src 'mypage/style.scss' %}">
+<link rel="icon" href="{% static 'img/favicon.ico' %}">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <a href="{% url 'index' %}" class="logo"></a>
+      <div class="navi">
+        <a href="{% url 'mypage:mypage' %}" class="gotomypage">マイページ</a>
+        <a href="{% url 'search:search' %}" class="gotosearch"></a>
+        <!-- <li><a href="{% url 'blog:index' %}">入試情報一覧</a></li>
+        <li><a href="{% url 'articles:index' %}">院試特集</a></li> -->
+      </div>
+    </div>
+  </header>
+  <section class="eyecatch2">
+    <div class="container">
+      <p class="catchcopy">研究室の人手不足・採用の<br class="br-for-small">悩みとはもうおさらば</p>
+      <h1>ミスマッチのない<br class="br-for-small">学生のスカウトを支援</h1>
+      <div class="buttontoregister">
+        <a href="{% url 'accounts:user_create' %}">無料会員登録</a>
+      </div>
+      <div class="buttontolabopartner">
+        <a href="{% url 'index' %}">研究室を探している学生の方</a>
+      </div>
+    </div>
+  </section>
+  <section class="problem">
+      <div class="prob-question2">
+        <p>研究室への学生採用について、<br class="br-for-small">こんな課題はありませんか？</p>
+      </div>
+      <div class="prob-content">
+        <div class="container">
+          <div class="prob-each-content"><p>学生の目的と研究内容がミスマッチした経験がある</p></div>
+          <div class="prob-each-content"><p>あまり研究室の存在を知ってもらえる機会がない</p></div>
+          <div class="prob-each-content"><p>人手不足である</p></div>
+          <div class="prob-each-content"><p>類似した研究室との違いをもっと知って欲しい</p></div>
+          <div class="prob-each-content"><p>志望している学生と気軽なコンタクトが取りたい</p></div>
+          <div class="prob-each-content"><p>専攻ページに掲載しきれない情報を開示したい</p></div>
+        </div>
+      </div>
+  </section>
+  <section class="what-labolib">
+    <div class="container">
+      <p class="what-laboli-p">Labo Library は</p>
+      <p class="what-laboli-content">学校学科専攻をまたいだ<span class="bold">キーワードによる研究室検索</span>および、<br class="br-for-large">学生と研究室が<span class="bold">気軽にコンタクトをとれる場</span>によって、<br class="br-for-large">あなたの研究に興味のある学生がリーチしやすい仕組みを提供します。</p>
+      <div class="sns-flex">
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=150&layout=button&action=like&size=small&share=true&height=65&appId" width="150" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </div>
+  </section>
+  <section class="merit">
+    <div class="container">
+      <p class="student-comein-desc">学生集客パターン 01</p>
+      <div class="for-large-flex">
+        <div class="use-flow">
+          <div class="flowstep"><p>STEP1</p></div>
+          <p class="flow-desc">学生が細かな条件で研究室を検索</p>
+          <div class="flow-img flow-img4"></div>
+        </div>
+        <div class="use-flow">
+          <div class="flowstep"><p>STEP2</p></div>
+          <p class="flow-desc">あなたの研究室の情報を学生が閲覧</p>
+          <div class="flow-img flow-img5"></div>
+        </div>
+        <div class="use-flow">
+          <div class="flowstep"><p>STEP3</p></div>
+          <p class="flow-desc">学生があなたの研究室をお気に入り登録しコンタクトが開始</p>
+          <div class="flow-img flow-img6"></div>
+        </div>
+      </div>
+      <p class="student-comein-desc">学生集客パターン 02</p>
+      <div class="for-large-flex">
+        <div class="use-flow">
+          <div class="flowstep"><p>STEP1</p></div>
+          <p class="flow-desc">あなたの研究分野を志望している学生を検索</p>
+          <div class="flow-img flow-img7"></div>
+        </div>
+        <div class="use-flow">
+          <div class="flowstep"><p>STEP2</p></div>
+          <p class="flow-desc">学生のプロフィールを閲覧</p>
+          <div class="flow-img flow-img8"></div>
+        </div>
+        <div class="use-flow">
+          <div class="flowstep"><p>STEP3</p></div>
+          <p class="flow-desc">学生をスカウトしコンタクト開始</p>
+          <div class="flow-img flow-img9"></div>
+        </div>
+      </div>
+      <p class="student-comein-desc">Labo Library の強み</p>
+      <div class="labolib-merits">
+        <div class="each-labolib-merit">
+          <div class="triangle"></div>
+          <p class="merit-desc">より具体的で雰囲気の伝わる情報を<br>開示できる</p>
+        </div>
+        <div class="each-labolib-merit">
+          <div class="triangle"></div>
+          <p class="merit-desc">学生、研究関係者問わず<br>研究室のことについて知ってもらえる<br>機会が増える</p>
+        </div>
+        <div class="each-labolib-merit">
+          <div class="triangle"></div>
+          <p class="merit-desc">具体性のある情報と気軽なコンタクトで<br>学生の目的と研究内容だけでなく<br>空気感に関するミスマッチも解消できる</p>
+        </div>
+        <div class="each-labolib-merit">
+          <div class="triangle"></div>
+          <p class="merit-desc">細かい検索条件を設定した上で<br>研究室ページが閲覧されるので<br>訪問する学生の研究室への関心度が高い</p>
+        </div>
+        <div class="each-labolib-merit">
+          <div class="triangle"></div>
+          <p class="merit-desc">洗練したUIでホームページの代わりになる<br>研究室ページが手に入る</p>
+        </div>
+        <div class="each-labolib-merit">
+          <div class="triangle"></div>
+          <p class="merit-desc">研究室に所属している人同士で<br>コンタクトが取れる</p>
+        </div>
+      </div>
+      <p class="other-service-desc">その他にも研究室の採用を支援する<br class="br-for-small">多様なサービスを提供しております。</p>
+      <div class="other-services other-services-sub">
+        <div class="each-other-services">
+          <div class="other-services-img other-services-img1"></div>
+          <div class="other-services-name">
+            <p>掲示板</p>
+          </div>
+        </div>
+        <div class="each-other-services">
+          <div class="other-services-img other-services-img3"></div>
+          <div class="other-services-name">
+            <p>卒論の公開</p>
+          </div>
+        </div>
+        <div class="each-other-services">
+          <div class="other-services-img other-services-img4"></div>
+          <div class="other-services-name">
+            <p>質問箱</p>
+          </div>
+        </div>
+        <div class="each-other-services">
+          <div class="other-services-img other-services-img5"></div>
+          <div class="other-services-name">
+            <p>お役立ちコラム</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="start-beta">
+    <div class="start-beta-band">
+      <div class="container">
+        <p class="start-beta-p">研究室への学生採用をサポートさせてください<br class="br-for-small">ただいま事前会員登録受付中!</p>
+        <div class="buttontoregister">
+          <a href="{% url 'accounts:user_create' %}">無料会員登録</a>
+        </div>
+        <p class="caution">※現在β版を公開中です。一部機能がご利用いただけません。<br>完全版は秋頃にリリースする予定です。</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <a href="{% url 'index' %}" class="logo"></a>
+      <div class="for-large-flex">
+        <div class="flex">
+          <div class="footer-menu">
+            <p class="footer-menu-title">コンテンツ</p>
+            <!-- <a href="{% url 'blog:index' %}">院試情報</a><br>
+            <a href="{% url 'articles:index' %}">院試特集</a><br> -->
+            <a href="{% url 'mypage:mypage' %}">マイページ</a><br>
+            <a href="{% url 'laboratory_page:lab_page_home' %}">研究室専用ページ</a>
+          </div>
+          <div class="footer-menu">
+            <p class="footer-menu-title">当サイトについて</p>
+            <a href="{% url 'about_administrator' %}">メンバー紹介</a><br>
+            <a href="{% url 'disclaimer' %}">著作権・免責事項</a><br>
+            <a href="{% url 'privacy_policy' %}">プライバシーポリシー</a><br>
+            <a href="{% url 'terms_of_service' %}">利用規約</a><br>
+            <a href="{% url 'contact_form:index' %}">お問い合わせ</a><br>
+            <a href="{% url 'feedback:index' %}">β版へのフィードバック</a>
+          </div>
+        </div>
+        <div class="buttons">
+          <div class="buttontoregister">
+            <a href="{% url 'accounts:user_create' %}">無料会員登録</a>
+          </div>
+          <div class="buttontosearch">
+            <a href="{% url 'search:search' %}">研究室を検索してみる</a>
+          </div>
+          <div class="buttontolabopartner">
+            <a href="{% url 'index_for_lab' %}">掲載希望の研究室関係者の方</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">Copyright&copy; LaboLibrary All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

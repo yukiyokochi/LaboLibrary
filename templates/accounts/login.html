@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="login">
+  <div class="loginbox">
+    <div class="login-container">
+      <a href="{% url 'index' %}" class="logo"></a>
+      <p class="login-p">ログイン</p>
+      <form action="{% url 'accounts:login' %}" method="POST">
+          {{ form.non_field_errors }}
+          {% for field in form %}
+              <p class="login-label">{{ field.label_tag }}</p>
+              {{ field }}<br>
+              {{ field.errors }}
+          {% endfor %}
+          <button type="submit">ログイン</button>
+          <input type="hidden" name="next" value="{{ next }}" />
+          {% csrf_token %}
+      </form>
+    </div>
+  </div>
+</section>
+{% endblock %}

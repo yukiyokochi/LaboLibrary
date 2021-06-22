@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<section class="feedback">
+  <div class="container">
+    <p class="feedback-p">β版へのフィードバック</p>
+       <form method="post">
+         {% csrf_token %}
+         {{ form.non_field_errors }}
+         {% for field in form %}
+           <div>
+             <p class="feedback-label">お客様のご意見をお聞かせください</p>
+             <div>
+               {{ field }}
+               {{ field.errors }}
+             </div>
+           </div>
+         {% endfor %}
+         <button type="submit">送信</button>
+       </form>
+  </div>
+</section>
+{% endblock %}

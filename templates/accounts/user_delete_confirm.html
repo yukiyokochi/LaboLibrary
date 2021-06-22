@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="delete">
+  <div class="container">
+    <p>本当に退会しますか？</p>
+    <a class="button" href="{% url 'accounts:user_delete' %}"><p>退会する</p></a>
+  </div>
+</div>
+{% endblock %}

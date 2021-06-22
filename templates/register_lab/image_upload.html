@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="lab-photo-console">
+  <div class="container">
+    <p class="lab-photo-console-p">写真登録</p>
+        <div class="jumbotron">
+            <form method="POST" enctype="multipart/form-data">
+                {{ form.as_p }}
+                {% csrf_token %}
+                <input type="submit" class="btn btn-primary" value="送信">
+            </form>
+        </div>
+    <a class="goback" href="javascript:history.back();">前のページに戻る</a>
+  </div>
+</section>
+{% endblock %}
