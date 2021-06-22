@@ -178,7 +178,47 @@ LOGGING = {
             'handlers':['file'],
             'level':'INFO',
         },
-        'labolib':{
+        'data_upload':{
+            'handlers':['file'],
+            'level':'INFO',
+        },
+        'search':{
+            'handlers':['file'],
+            'level':'INFO',
+        },
+        'register_lab':{
+            'handlers':['file'],
+            'level':'INFO',
+        },
+        'accounts':{
+            'handlers':['file'],
+            'level':'INFO',
+        },
+        'contact_form':{
+            'handlers':['file'],
+            'level':'INFO',
+        },
+        'mypage':{
+            'handlers':['file'],
+            'level':'INFO',
+        },
+        'blog':{
+            'handlers':['file'],
+            'level':'INFO',
+        },
+        'articles':{
+            'handlers':['file'],
+            'level':'INFO',
+        },
+        'laboratory_page':{
+            'handlers':['file'],
+            'level':'INFO',
+        },
+        'chat':{
+            'handlers':['file'],
+            'level':'INFO',
+        },
+        'feedback':{
             'handlers':['file'],
             'level':'INFO',
         },
