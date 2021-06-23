@@ -10,25 +10,23 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
+from pathlib import Path
 import os
 import environ
-from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
-
-env = environ.Env()
-env.read_env('.env')
+BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = os.environ.get('SECRET_KEY')
+# SECRET_KEY = 'c_x+a8828!%lt$ey^ld=8xouy6rtf^xwwlq3e-rs^%13klzya3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [env('ALLOWED_HOSTS')]
+ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOSTS')]
 
 
 # Application definition
@@ -92,8 +90,12 @@ WSGI_APPLICATION = 'search_lab.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'labolibrary',
+        'USER': os.environ.get('DB_USER'),
+        'PASSWORD': os.environ.get('DB_PASSWORD'),
+        'HOST':'',
+        'PORT':'',
     }
 }
 
@@ -133,9 +135,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
-
+STATIC_ROOT = '/usr/share/nginx/html/static'
 STATIC_URL = '/static/'
-
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 SASS_PROCESSOR_ROOT = os.path.join(BASE_DIR, 'static')
 SASS_PROCESSOR_INCLUDE_FILE_PATTERN = r'^.+\.(sass|scss)$'
@@ -144,23 +145,19 @@ SASS_OUTPUT_STYLE = 'compressed'
 SASS_TEMPLATE_EXTS = ['.html', '.haml']
 
 AUTH_USER_MODEL = 'accounts.User'
-
 LOGIN_URL = 'accounts:login'
 LOGIN_REDIRECT_URL = 'accounts:top'
 
-STATIC_ROOT = '/usr/share/nginx/html/static'
 MEDIA_ROOT = '/usr/share/nginx/html/media'
-
 MEDIA_URL = '/media/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # テスト用
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-
 # 本番用
-AWS_SES_ACCESS_KEY_ID = env('AWS_SES_ACCESS_KEY_ID')
-AWS_SES_SECRET_ACCESS_KEY = env('AWS_SES_SECRET_ACCESS_KEY')
+AWS_SES_ACCESS_KEY_ID = os.environ.get('AWS_SES_ACCESS_KEY_ID')
+AWS_SES_SECRET_ACCESS_KEY = os.environ.get('AWS_SES_SECRET_ACCESS_KEY')
 EMAIL_BACKEND = 'django_ses.SESBackend'
 # EMAIL_HOST = 'smtp.googlemail.com'
 # EMAIL_USE_TLS = True
@@ -246,10 +243,3 @@ LOGGING = {
         },
     }
 }
-
-# ~/.bash_profileに環境変数を書く。
-# export ALLOWED_HOSTS=
-# export AWS_SES_ACCESS_KEY_ID=
-# export AWS_SES_SECRET_ACCESS_KEY=
-# export SECRET_KEY=
-# など。
