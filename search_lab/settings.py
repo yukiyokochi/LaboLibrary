@@ -154,16 +154,19 @@ MEDIA_URL = '/media/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # テスト用
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 # 本番用
-AWS_SES_ACCESS_KEY_ID = os.environ.get('AWS_SES_ACCESS_KEY_ID')
-AWS_SES_SECRET_ACCESS_KEY = os.environ.get('AWS_SES_SECRET_ACCESS_KEY')
-EMAIL_BACKEND = 'django_ses.SESBackend'
-# EMAIL_HOST = 'smtp.googlemail.com'
-# EMAIL_USE_TLS = True
-# EMAIL_PORT = 587
-# EMAIL_HOST_USER = 'lablib2021@gmail.com'
-# EMAIL_HOST_PASSWORD = 'utnem2020'
+# AWS_SES_ACCESS_KEY_ID = os.environ.get('AWS_SES_ACCESS_KEY_ID')
+# AWS_SES_SECRET_ACCESS_KEY = os.environ.get('AWS_SES_SECRET_ACCESS_KEY')
+# EMAIL_BACKEND = 'django_ses.SESBackend'
+
+# EC2からの送信
+EMAIL_HOST = 'smtp.googlemail.com'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'lablib2021@gmail.com'
+EMAIL_HOST_PASSWORD = 'utnem2020'
 
 # ロギング
 LOGGING = {
