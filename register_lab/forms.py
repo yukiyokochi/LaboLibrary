@@ -27,6 +27,7 @@ class NewLaboratoryForm(forms.ModelForm):
             'adult_graduate_student_acceptance',
             'degree_of_difficulty',
             'students_rate',
+            'laboratory_website',
             'information_source',
         )
         labels = {
@@ -45,6 +46,7 @@ class NewLaboratoryForm(forms.ModelForm):
             'adult_graduate_student_acceptance': '社会人学生受け入れ可否',
             'degree_of_difficulty': '院試難易度',
             'students_rate': '内部性と外部生の割合',
+            'laboratory_website': '研究室webページ',
             'information_source': '情報元webページ',
         }
         # fieldsに__all__をセットすると、モデル内の全てのフィールドが用いられる

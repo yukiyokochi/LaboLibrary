@@ -1,0 +1,363 @@
+2021-07-05 00:40:54,414	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 00:40:54,415	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /bag2
+2021-07-05 03:06:48,245	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 03:06:48,246	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /idp/js/openam.js
+2021-07-05 03:07:42,208	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 03:07:42,208	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /.env
+2021-07-05 03:07:43,148	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 03:07:43,148	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 03:34:34,261	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 03:34:34,262	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /admin/config.php
+2021-07-05 04:21:42,073	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 04:21:42,073	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 04:21:42,231	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 04:21:42,232	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /favicon.ico
+2021-07-05 04:21:43,507	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 04:21:43,508	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 04:26:01,535	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 04:26:01,536	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /api/v1
+2021-07-05 04:47:30,529	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: 'api.binance.com'. You may need to add 'api.binance.com' to ALLOWED_HOSTS.
+2021-07-05 04:47:30,529	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /api/v1/time
+2021-07-05 06:05:59,236	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 06:05:59,236	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-07-05 06:05:59,893	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 06:05:59,893	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /api/jsonws/invoke
+2021-07-05 06:06:00,117	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 06:06:00,117	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-07-05 06:06:00,775	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 06:06:00,776	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /solr/admin/info/system
+2021-07-05 06:06:01,228	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 06:06:01,229	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /index.php
+2021-07-05 06:06:03,243	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 06:06:03,243	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 06:06:03,276	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 06:06:03,277	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 06:06:04,204	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 06:06:04,205	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /console/
+2021-07-05 06:06:06,077	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 06:06:06,078	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /_ignition/execute-solution
+2021-07-05 06:06:06,735	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 06:06:06,736	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /Autodiscover/Autodiscover.xml
+2021-07-05 06:06:06,968	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 06:06:06,969	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /wp-content/plugins/wp-file-manager/readme.txt
+2021-07-05 07:36:18,556	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 07:36:18,556	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+2021-07-05 07:50:21,460	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 07:50:21,460	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 09:11:37,485	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 09:11:37,485	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /invoker/readonly
+2021-07-05 09:11:37,974	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 09:11:37,974	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /_ignition/execute-solution
+2021-07-05 09:11:38,419	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 09:11:38,419	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-07-05 09:11:38,915	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 09:11:38,916	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 09:11:39,327	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 09:11:39,327	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /login
+2021-07-05 09:11:39,831	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 09:11:39,832	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /jenkins/login
+2021-07-05 09:11:40,345	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 09:11:40,346	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /manager/html
+2021-07-05 09:11:40,730	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 09:11:40,730	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /wp-login.php
+2021-07-05 09:11:41,177	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 09:11:41,177	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 09:18:13,594	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 09:18:13,594	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 09:18:14,466	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 09:18:14,466	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 09:21:39,546	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 09:21:39,547	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 09:48:15,907	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 09:48:15,908	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /_ignition/execute-solution
+2021-07-05 10:11:29,373	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 10:11:29,374	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 11:24:13,037	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 11:24:13,037	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /.env
+2021-07-05 11:24:14,526	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 11:24:14,527	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 11:56:48,889	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 11:56:48,889	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /actuator/health
+2021-07-05 12:11:00,838	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 12:11:00,838	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /.env
+2021-07-05 12:11:01,449	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 12:11:01,449	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 12:29:36,125	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 12:29:36,126	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 12:32:06,947	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 12:32:06,947	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /.env
+2021-07-05 12:32:07,954	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 12:32:07,954	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 13:11:09,908	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 13:11:09,908	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 14:04:48,453	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 14:04:48,453	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 14:11:05,289	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 14:11:05,289	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /_ignition/execute-solution
+2021-07-05 14:11:07,861	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 14:11:07,861	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /console/
+2021-07-05 14:11:08,153	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 14:11:08,153	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /Autodiscover/Autodiscover.xml
+2021-07-05 14:11:11,252	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 14:11:11,252	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /wp-content/plugins/wp-file-manager/readme.txt
+2021-07-05 14:11:12,183	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 14:11:12,183	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 14:11:13,622	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 14:11:13,622	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /index.php
+2021-07-05 14:11:14,843	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 14:11:14,844	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 14:11:15,680	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 14:11:15,681	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-07-05 14:11:17,329	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 14:11:17,330	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /mifs/.;/services/LogService
+2021-07-05 14:11:19,779	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 14:11:19,779	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-07-05 14:11:20,587	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 14:11:20,587	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /api/jsonws/invoke
+2021-07-05 16:06:13,081	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 16:06:13,081	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 16:17:10,447	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 16:17:10,447	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 16:57:19,639	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 16:57:19,639	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 17:03:26,779	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 17:03:26,779	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /admin/config.php
+2021-07-05 17:07:41,079	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: 'api.binance.com'. You may need to add 'api.binance.com' to ALLOWED_HOSTS.
+2021-07-05 17:07:41,080	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /api/v1/time
+2021-07-05 17:36:42,017	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 17:36:42,017	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 17:37:01,009	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 17:37:01,009	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /robots.txt
+2021-07-05 17:37:01,798	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 17:37:01,798	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /sitemap.xml
+2021-07-05 17:37:02,307	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 17:37:02,307	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /.well-known/security.txt
+2021-07-05 17:37:02,926	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 17:37:02,927	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /favicon.ico
+2021-07-05 17:37:10,101	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 17:37:10,101	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 18:07:23,476	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 18:07:23,478	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-07-05 18:08:40,966	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 18:08:40,967	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /solr/
+2021-07-05 18:15:45,491	[INFO]	/home/labolibrary_admin/venv_labolibrary/labolibrary/search/views.py(Line:69)	<QueryDict: {'search_text': [''], 'university_area': [''], 'university': [''], 'faculty': [''], 'department': [''], 'professor_name': [''], 'master_acceptance': ['unknown'], 'doctor_acceptance': ['unknown'], 'csrfmiddlewaretoken': ['zcgvmAB0Yuk0HldDmcNWrzeQcIky5hJ1ZpjPgoGcdZI0o012uaa1NI0O8YjLLG96']}>
+2021-07-05 18:24:28,167	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 18:24:28,167	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /owa/auth/logon.aspx
+2021-07-05 19:20:39,953	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 19:20:39,954	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /solr/
+2021-07-05 19:30:40,487	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 19:30:40,487	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 20:15:53,902	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 20:15:53,902	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /phpmyadmin/index.php
+2021-07-05 20:15:54,109	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 20:15:54,109	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /pmd/index.php
+2021-07-05 20:15:54,307	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 20:15:54,308	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /phpmyadmin4.8.5/index.php
+2021-07-05 21:00:40,123	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 21:00:40,123	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /aaa9
+2021-07-05 22:33:32,062	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 22:33:32,062	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 22:33:32,270	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 22:33:32,271	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 22:33:32,487	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 22:33:32,487	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /favicon.ico
+2021-07-05 22:45:53,700	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 22:45:53,700	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 23:22:47,882	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 23:22:47,882	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-07-05 23:22:48,816	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 23:22:48,816	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /api/jsonws/invoke
+2021-07-05 23:22:49,947	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 23:22:49,947	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /index.php
+2021-07-05 23:22:49,987	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 23:22:49,987	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /solr/admin/info/system
+2021-07-05 23:22:51,062	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 23:22:51,062	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /_ignition/execute-solution
+2021-07-05 23:22:51,547	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 23:22:51,547	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /wp-content/plugins/wp-file-manager/readme.txt
+2021-07-05 23:22:52,404	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 23:22:52,404	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 23:22:52,575	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 23:22:52,575	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /console/
+2021-07-05 23:22:53,285	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 23:22:53,285	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-05 23:22:54,195	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 23:22:54,195	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-07-05 23:22:55,067	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-05 23:22:55,068	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /Autodiscover/Autodiscover.xml
+2021-07-06 00:56:22,918	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 00:56:22,918	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /owa/
+2021-07-06 01:04:56,535	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 01:04:56,535	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 01:40:59,189	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 01:40:59,189	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 01:40:59,885	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 01:40:59,885	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 02:37:52,648	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 02:37:52,648	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /.env
+2021-07-06 02:37:53,995	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 02:37:53,995	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 02:41:20,252	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 02:41:20,253	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /.env
+2021-07-06 02:41:20,904	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 02:41:20,904	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 02:48:07,269	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 02:48:07,269	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 03:05:13,922	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 03:05:13,923	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 03:45:25,247	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 03:45:25,248	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 04:30:11,701	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 04:30:11,702	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 04:37:28,426	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 04:37:28,426	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 04:42:49,980	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 04:42:49,981	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /.env
+2021-07-06 04:42:51,032	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 04:42:51,033	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 04:59:18,116	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 04:59:18,116	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 05:02:07,593	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 05:02:07,593	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 05:07:01,767	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 05:07:01,768	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 05:53:29,214	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: 'api.binance.com'. You may need to add 'api.binance.com' to ALLOWED_HOSTS.
+2021-07-06 05:53:29,215	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /api/v1/time
+2021-07-06 06:28:44,745	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 06:28:44,745	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /admin/config.php
+2021-07-06 06:28:50,445	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 06:28:50,446	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /.env
+2021-07-06 06:28:50,914	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 06:28:50,915	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 07:44:25,118	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 07:44:25,119	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+2021-07-06 07:47:09,896	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Not Found: /robots.txt
+2021-07-06 08:07:48,644	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 08:07:48,644	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 08:18:00,894	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 08:18:00,894	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 08:18:02,487	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 08:18:02,488	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 08:18:02,672	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 08:18:02,672	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /favicon.ico
+2021-07-06 08:43:38,439	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 08:43:38,439	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /api/jsonws/invoke
+2021-07-06 08:43:38,484	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 08:43:38,484	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /mifs/.;/services/LogService
+2021-07-06 08:43:39,541	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 08:43:39,542	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /wp-content/plugins/wp-file-manager/readme.txt
+2021-07-06 08:43:41,504	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 08:43:41,505	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /console/
+2021-07-06 08:43:43,372	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 08:43:43,372	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-07-06 08:43:43,692	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 08:43:43,693	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /Autodiscover/Autodiscover.xml
+2021-07-06 08:43:45,992	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 08:43:45,992	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /_ignition/execute-solution
+2021-07-06 08:43:46,283	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 08:43:46,283	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-07-06 08:43:48,727	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 08:43:48,728	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 08:43:48,986	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 08:43:48,987	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /index.php
+2021-07-06 08:43:53,722	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 08:43:53,722	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 09:05:16,937	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 09:05:16,937	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 09:30:27,809	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 09:30:27,809	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 09:43:42,563	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 09:43:42,563	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 10:19:37,745	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 10:19:37,746	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 10:19:38,621	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 10:19:38,621	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 10:23:49,488	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172:443'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 10:23:49,489	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 10:23:50,491	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 10:23:50,491	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 10:39:39,908	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 10:39:39,909	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 11:19:27,865	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 11:19:27,865	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 11:23:26,446	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 11:23:26,447	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /_ignition/execute-solution
+2021-07-06 11:51:37,591	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 11:51:37,591	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 12:10:44,191	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 12:10:44,191	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 12:21:47,636	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 12:21:47,636	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 12:23:49,013	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 12:23:49,013	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /actuator/health
+2021-07-06 12:29:47,714	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 12:29:47,715	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 14:19:53,127	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: 'api.binance.com'. You may need to add 'api.binance.com' to ALLOWED_HOSTS.
+2021-07-06 14:19:53,128	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /api/v1/time
+2021-07-06 14:52:30,302	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 14:52:30,302	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /.env
+2021-07-06 14:52:31,619	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 14:52:31,620	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 15:56:06,521	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: 'api.binance.com'. You may need to add 'api.binance.com' to ALLOWED_HOSTS.
+2021-07-06 15:56:06,522	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /api/v1/time
+2021-07-06 16:09:37,185	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 16:09:37,186	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-07-06 16:09:37,187	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 16:09:37,187	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /api/jsonws/invoke
+2021-07-06 16:09:38,659	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 16:09:38,660	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /index.php
+2021-07-06 16:09:39,080	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 16:09:39,081	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+2021-07-06 16:09:39,967	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 16:09:39,967	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 16:09:40,808	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 16:09:40,808	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /solr/admin/info/system
+2021-07-06 16:09:41,298	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 16:09:41,298	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /wp-content/plugins/wp-file-manager/readme.txt
+2021-07-06 16:09:42,142	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 16:09:42,143	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /
+2021-07-06 16:09:43,036	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 16:09:43,036	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /Autodiscover/Autodiscover.xml
+2021-07-06 16:09:43,630	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 16:09:43,631	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /console/
+2021-07-06 16:09:44,569	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py(Line:101)	Invalid HTTP_HOST header: '54.248.148.172'. You may need to add '54.248.148.172' to ALLOWED_HOSTS.
+2021-07-06 16:09:44,569	[WARNING]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Bad Request: /_ignition/execute-solution
+2021-07-06 17:33:38,053	[INFO]	/home/labolibrary_admin/venv_labolibrary/labolibrary/search/views.py(Line:69)	<QueryDict: {'search_text': ['植物'], 'university_area': ['13'], 'university': ['1'], 'faculty': ['196'], 'department': [''], 'professor_name': [''], 'master_acceptance': ['unknown'], 'doctor_acceptance': ['unknown'], 'csrfmiddlewaretoken': ['BuqgaO3H91MgzCn65rxV47fIi4TDySbFT5Hac97BnBkZtkNIIV4tCn8JtogBOoGB']}>
+2021-07-06 17:33:46,744	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'department'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/labolibrary_admin/venv_labolibrary/labolibrary/search/views.py", line 68, in search_view
+    print(request.POST['department'])
+  File "/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'department'
+2021-07-06 17:33:50,635	[ERROR]	/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/log.py(Line:230)	Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'department'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/labolibrary_admin/venv_labolibrary/labolibrary/search/views.py", line 68, in search_view
+    print(request.POST['department'])
+  File "/home/labolibrary_admin/venv_labolibrary/lib64/python3.7/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'department'
+2021-07-06 17:34:05,586	[INFO]	/home/labolibrary_admin/venv_labolibrary/labolibrary/search/views.py(Line:69)	<QueryDict: {'search_text': [''], 'university_area': ['13'], 'university': ['1'], 'faculty': ['209'], 'department': ['1'], 'professor_name': [''], 'master_acceptance': ['unknown'], 'doctor_acceptance': ['unknown'], 'csrfmiddlewaretoken': ['LbM0eE7CivuYPm69NqzqEHQNqdp9DWcX3M3UgZbww52HJ4wLqU6YcXJOBxM7TsHT']}>
+2021-07-06 17:34:14,565	[INFO]	/home/labolibrary_admin/venv_labolibrary/labolibrary/search/views.py(Line:69)	<QueryDict: {'search_text': [''], 'university_area': ['13'], 'university': ['1'], 'faculty': ['209'], 'department': ['1'], 'professor_name': [''], 'master_acceptance': ['unknown'], 'doctor_acceptance': ['unknown'], 'csrfmiddlewaretoken': ['KFAAiKbVIIGUuoGHz3fDpOh3kpAinppY2gRuk5fPWieDo66jcxMbX4a4vJXgDVUU']}>

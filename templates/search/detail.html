@@ -98,7 +98,8 @@
     </table>
     <a class="button" href="{% url 'search:research_paper_list' lab_pk=laboratory_info.pk%}"><p>この研究室の論文をみる</p></a>
     <!-- <a href="{% url 'search:send_message_for_lab' laboratory_info.pk %}">研究室に問い合わせる</a> -->
-    <a class="button" href="{{ laboratory_info.information_source }}" target="_blank"><p>研究室ホームページへ</p></a>
+    <a class="button" href="{{ laboratory_info.laboratory_website }}" target="_blank"><p>研究室ホームページへ</p></a>
+    <a class="button" href="{{ laboratory_info.information_source }}" target="_blank"><p>情報元webサイトへ</p></a>
     <p class="about-page-p">ページ作成日:{{ laboratory_info.page_create_date }}<br>ページ更新日:{{ laboratory_info.page_update_date }}<br>情報源:{{ laboratory_info.information_source }}<br>運営者による情報確認:{{ laboratory_info.confirmation }}</p>
     <a class="button" href="javascript:history.back();"><p>前のページに戻る</p></a>
     <a class="button" href="{% url 'index' %}"><p>トップページに戻る</p></a>

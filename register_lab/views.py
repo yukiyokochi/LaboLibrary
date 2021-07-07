@@ -69,6 +69,7 @@ class LabInfoUpdate(UpdateView):
         'adult_graduate_student_acceptance',
         'degree_of_difficulty',
         'students_rate',
+        'laboratory_website',
         'information_source',
     )
 
